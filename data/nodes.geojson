@@ -1,0 +1,5873 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.42114612647975,
+          34.549823135459455
+        ]
+      },
+      "properties": {
+        "id": "N0000",
+        "name": "Orion Industries",
+        "country": "China",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.5658
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.969600192980971,
+          50.5197758327404
+        ]
+      },
+      "properties": {
+        "id": "N0001",
+        "name": "Vertex Trading Ltd.",
+        "country": "Germany",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.02764429619907,
+          36.48860152054027
+        ]
+      },
+      "properties": {
+        "id": "N0002",
+        "name": "Nimbus Manufacturing",
+        "country": "China",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.3984
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.0226545895177,
+          34.655839957774376
+        ]
+      },
+      "properties": {
+        "id": "N0003",
+        "name": "Atlas Foundry",
+        "country": "USA",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.5077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.121654805233481,
+          49.96677007164004
+        ]
+      },
+      "properties": {
+        "id": "N0004",
+        "name": "Kestrel Materials",
+        "country": "Germany",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.4693
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.69868246238775,
+          26.108224177552312
+        ]
+      },
+      "properties": {
+        "id": "N0005",
+        "name": "Solace Chemicals Inc.",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.3988
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.171766043496675,
+          53.812307256371945
+        ]
+      },
+      "properties": {
+        "id": "N0006",
+        "name": "Ferrovia Components",
+        "country": "Netherlands",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.6724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45691787988237,
+          37.785340702720816
+        ]
+      },
+      "properties": {
+        "id": "N0007",
+        "name": "Brightloom Group",
+        "country": "USA",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.3633
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.08977346428352,
+          -13.565696708574059
+        ]
+      },
+      "properties": {
+        "id": "N0008",
+        "name": "Cascadia Systems",
+        "country": "Brazil",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.2876
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.723740718992545,
+          -14.124093948083495
+        ]
+      },
+      "properties": {
+        "id": "N0009",
+        "name": "Ironclad Logistics Co.",
+        "country": "Brazil",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.1745
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.02015719113498,
+          36.71705737684796
+        ]
+      },
+      "properties": {
+        "id": "N0010",
+        "name": "Meridian Textiles Ltd.",
+        "country": "China",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.5139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.745497914656588,
+          53.42115123143409
+        ]
+      },
+      "properties": {
+        "id": "N0011",
+        "name": "Solstice Holdings",
+        "country": "Netherlands",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.6675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.42505875734875,
+          34.916338297578555
+        ]
+      },
+      "properties": {
+        "id": "N0012",
+        "name": "Quantum Industries",
+        "country": "South Korea",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.5698
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.11374544332733,
+          38.02763618489473
+        ]
+      },
+      "properties": {
+        "id": "N0013",
+        "name": "Harbor Trading Ltd.",
+        "country": "Japan",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.6325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.184064001277409,
+          53.22411962032902
+        ]
+      },
+      "properties": {
+        "id": "N0014",
+        "name": "Evergreen Manufacturing",
+        "country": "Netherlands",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.5699
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.30549333791937,
+          36.93064741805601
+        ]
+      },
+      "properties": {
+        "id": "N0015",
+        "name": "Zenith Foundry",
+        "country": "China",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.686
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.78454385492614,
+          13.53481702000372
+        ]
+      },
+      "properties": {
+        "id": "N0016",
+        "name": "Palisade Materials",
+        "country": "Vietnam",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.6024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.37793360852261,
+          35.583105280253804
+        ]
+      },
+      "properties": {
+        "id": "N0017",
+        "name": "Northstar Chemicals Inc.",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.5057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.942728451345616,
+          -12.345666698309792
+        ]
+      },
+      "properties": {
+        "id": "N0018",
+        "name": "Tundra Components",
+        "country": "Brazil",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.2999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.034934706165686,
+          49.349844301003344
+        ]
+      },
+      "properties": {
+        "id": "N0019",
+        "name": "Beacon Group",
+        "country": "Germany",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.5326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.88080933313715,
+          38.18740069449102
+        ]
+      },
+      "properties": {
+        "id": "N0020",
+        "name": "Orion Systems",
+        "country": "China",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.4533
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.455130992127526,
+          51.80324145433402
+        ]
+      },
+      "properties": {
+        "id": "N0021",
+        "name": "Vertex Logistics Co.",
+        "country": "Germany",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.3426
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.70933129422451,
+          14.096214919145298
+        ]
+      },
+      "properties": {
+        "id": "N0022",
+        "name": "Nimbus Textiles Ltd.",
+        "country": "Vietnam",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.5235
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.28462946297317,
+          36.3445524438509
+        ]
+      },
+      "properties": {
+        "id": "N0023",
+        "name": "Atlas Holdings",
+        "country": "USA",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.5013
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.90899114576112,
+          -13.818741035149007
+        ]
+      },
+      "properties": {
+        "id": "N0024",
+        "name": "Kestrel Industries",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.252
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.594728006000084,
+          52.07991068317484
+        ]
+      },
+      "properties": {
+        "id": "N0025",
+        "name": "Solace Trading Ltd.",
+        "country": "Germany",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.3121
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.22494822434408,
+          37.69200283198377
+        ]
+      },
+      "properties": {
+        "id": "N0026",
+        "name": "Ferrovia Manufacturing",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.4477
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.08549810985535,
+          36.76636771081259
+        ]
+      },
+      "properties": {
+        "id": "N0027",
+        "name": "Brightloom Foundry",
+        "country": "South Korea",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.5874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.773164736545306,
+          52.97318766558134
+        ]
+      },
+      "properties": {
+        "id": "N0028",
+        "name": "Cascadia Materials",
+        "country": "Germany",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.5537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5955375173716,
+          38.22347992256118
+        ]
+      },
+      "properties": {
+        "id": "N0029",
+        "name": "Ironclad Chemicals Inc.",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.3779
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.51562491837798,
+          21.659085100870996
+        ]
+      },
+      "properties": {
+        "id": "N0030",
+        "name": "Meridian Components",
+        "country": "India",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.2558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34233823824357,
+          38.748039651366774
+        ]
+      },
+      "properties": {
+        "id": "N0031",
+        "name": "Solstice Group",
+        "country": "USA",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.6169
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.77730288572614,
+          19.514787309931027
+        ]
+      },
+      "properties": {
+        "id": "N0032",
+        "name": "Quantum Systems",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.4874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.69903007460792,
+          37.969712442113405
+        ]
+      },
+      "properties": {
+        "id": "N0033",
+        "name": "Harbor Logistics Co.",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.5685
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.2729766062875,
+          33.85259046554864
+        ]
+      },
+      "properties": {
+        "id": "N0034",
+        "name": "Evergreen Textiles Ltd.",
+        "country": "South Korea",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.7416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45617312773595,
+          36.64230913672955
+        ]
+      },
+      "properties": {
+        "id": "N0035",
+        "name": "Zenith Holdings",
+        "country": "USA",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.6056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.20604056361327,
+          22.59945623409531
+        ]
+      },
+      "properties": {
+        "id": "N0036",
+        "name": "Palisade Industries",
+        "country": "Mexico",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.5749
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.20904969435228,
+          -12.376164876858994
+        ]
+      },
+      "properties": {
+        "id": "N0037",
+        "name": "Northstar Trading Ltd.",
+        "country": "Brazil",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.3505
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.68470121748018,
+          21.162662642659043
+        ]
+      },
+      "properties": {
+        "id": "N0038",
+        "name": "Tundra Manufacturing",
+        "country": "India",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.2153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.43477073009504,
+          15.152202387242582
+        ]
+      },
+      "properties": {
+        "id": "N0039",
+        "name": "Beacon Foundry",
+        "country": "Vietnam",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.4435
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6031787842167,
+          37.76452653623679
+        ]
+      },
+      "properties": {
+        "id": "N0040",
+        "name": "Orion Materials",
+        "country": "China",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.6762
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.05745527312112,
+          23.65710186824022
+        ]
+      },
+      "properties": {
+        "id": "N0041",
+        "name": "Vertex Chemicals Inc.",
+        "country": "Mexico",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.84485352352705,
+          19.638350267381696
+        ]
+      },
+      "properties": {
+        "id": "N0042",
+        "name": "Nimbus Components",
+        "country": "India",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.4884
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.42688881087659,
+          36.408814043983
+        ]
+      },
+      "properties": {
+        "id": "N0043",
+        "name": "Atlas Group",
+        "country": "South Korea",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.5158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.390319321915044,
+          -15.753075717857904
+        ]
+      },
+      "properties": {
+        "id": "N0044",
+        "name": "Kestrel Systems",
+        "country": "Brazil",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.3219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.730994955067823,
+          51.72233561483671
+        ]
+      },
+      "properties": {
+        "id": "N0045",
+        "name": "Solace Logistics Co.",
+        "country": "Germany",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.4208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.6088951696386,
+          33.62217912360602
+        ]
+      },
+      "properties": {
+        "id": "N0046",
+        "name": "Ferrovia Textiles Ltd.",
+        "country": "South Korea",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.5728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.25670286795773,
+          22.699152599580458
+        ]
+      },
+      "properties": {
+        "id": "N0047",
+        "name": "Brightloom Holdings",
+        "country": "Mexico",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15894619706091,
+          37.893298207138
+        ]
+      },
+      "properties": {
+        "id": "N0048",
+        "name": "Cascadia Industries",
+        "country": "South Korea",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.3334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.390364922962819,
+          51.93204816422953
+        ]
+      },
+      "properties": {
+        "id": "N0049",
+        "name": "Ironclad Trading Ltd.",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.4813
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.07174880799015,
+          24.349443591938634
+        ]
+      },
+      "properties": {
+        "id": "N0050",
+        "name": "Meridian Manufacturing",
+        "country": "Mexico",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.85063067722632,
+          36.496305310076956
+        ]
+      },
+      "properties": {
+        "id": "N0051",
+        "name": "Solstice Foundry",
+        "country": "Japan",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.2479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.5148659202717,
+          25.833106277119814
+        ]
+      },
+      "properties": {
+        "id": "N0052",
+        "name": "Quantum Materials",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.1847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.551556260720691,
+          50.82595776715466
+        ]
+      },
+      "properties": {
+        "id": "N0053",
+        "name": "Harbor Chemicals Inc.",
+        "country": "Germany",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.2003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.295434305870748,
+          50.81817809732392
+        ]
+      },
+      "properties": {
+        "id": "N0054",
+        "name": "Evergreen Components",
+        "country": "Netherlands",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.4839
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.60436353359397,
+          39.47898658224318
+        ]
+      },
+      "properties": {
+        "id": "N0055",
+        "name": "Zenith Group",
+        "country": "USA",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.6178
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1527125681789,
+          37.33215233843431
+        ]
+      },
+      "properties": {
+        "id": "N0056",
+        "name": "Palisade Systems",
+        "country": "USA",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.3294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.31017393101466,
+          36.666051719019414
+        ]
+      },
+      "properties": {
+        "id": "N0057",
+        "name": "Northstar Logistics Co.",
+        "country": "USA",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.3314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.028989706531283,
+          48.770264451523
+        ]
+      },
+      "properties": {
+        "id": "N0058",
+        "name": "Tundra Textiles Ltd.",
+        "country": "Germany",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.4316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.250402553138613,
+          51.83090267648058
+        ]
+      },
+      "properties": {
+        "id": "N0059",
+        "name": "Beacon Holdings",
+        "country": "Germany",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.6257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.121252148483539,
+          52.76670554505478
+        ]
+      },
+      "properties": {
+        "id": "N0060",
+        "name": "Orion Industries",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.4808
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03288491520523,
+          36.80640699019054
+        ]
+      },
+      "properties": {
+        "id": "N0061",
+        "name": "Vertex Trading Ltd.",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.39017144626017,
+          36.89475124682949
+        ]
+      },
+      "properties": {
+        "id": "N0062",
+        "name": "Nimbus Manufacturing",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.2912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.05288401822898,
+          33.810912344954055
+        ]
+      },
+      "properties": {
+        "id": "N0063",
+        "name": "Atlas Foundry",
+        "country": "Japan",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.6045
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.39347209806871,
+          37.97010154743689
+        ]
+      },
+      "properties": {
+        "id": "N0064",
+        "name": "Kestrel Materials",
+        "country": "USA",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.1594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.148439351818105,
+          -15.48438860908265
+        ]
+      },
+      "properties": {
+        "id": "N0065",
+        "name": "Solace Chemicals Inc.",
+        "country": "Brazil",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.3284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.550126928740031,
+          51.63335937833245
+        ]
+      },
+      "properties": {
+        "id": "N0066",
+        "name": "Ferrovia Components",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02335330598454,
+          19.909775446699783
+        ]
+      },
+      "properties": {
+        "id": "N0067",
+        "name": "Brightloom Group",
+        "country": "India",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.3408
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.67810752928769,
+          35.20576987638477
+        ]
+      },
+      "properties": {
+        "id": "N0068",
+        "name": "Cascadia Systems",
+        "country": "China",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.4155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.16419829335541,
+          22.632019866827946
+        ]
+      },
+      "properties": {
+        "id": "N0069",
+        "name": "Ironclad Logistics Co.",
+        "country": "Mexico",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.3259
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.91539397495335,
+          24.991367062220604
+        ]
+      },
+      "properties": {
+        "id": "N0070",
+        "name": "Meridian Textiles Ltd.",
+        "country": "Mexico",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.5718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.625865908392548,
+          51.51629001035291
+        ]
+      },
+      "properties": {
+        "id": "N0071",
+        "name": "Solstice Holdings",
+        "country": "Germany",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.3985
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.38268921396595,
+          34.96008347705046
+        ]
+      },
+      "properties": {
+        "id": "N0072",
+        "name": "Quantum Industries",
+        "country": "South Korea",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.6034
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.01652411551079,
+          38.60903835197457
+        ]
+      },
+      "properties": {
+        "id": "N0073",
+        "name": "Harbor Trading Ltd.",
+        "country": "USA",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.3875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.9261716026641,
+          34.63697170458971
+        ]
+      },
+      "properties": {
+        "id": "N0074",
+        "name": "Evergreen Manufacturing",
+        "country": "Japan",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.5504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.77920846315935,
+          36.90033203337425
+        ]
+      },
+      "properties": {
+        "id": "N0075",
+        "name": "Zenith Foundry",
+        "country": "South Korea",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.2387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.38123174775662,
+          22.73982992310632
+        ]
+      },
+      "properties": {
+        "id": "N0076",
+        "name": "Palisade Materials",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.5358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.97215366280693,
+          15.727694457786544
+        ]
+      },
+      "properties": {
+        "id": "N0077",
+        "name": "Northstar Chemicals Inc.",
+        "country": "Vietnam",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.7414
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6364211627821748,
+          53.90767596992443
+        ]
+      },
+      "properties": {
+        "id": "N0078",
+        "name": "Tundra Components",
+        "country": "Netherlands",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.4694
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.95883811853751,
+          36.273551175224405
+        ]
+      },
+      "properties": {
+        "id": "N0079",
+        "name": "Beacon Group",
+        "country": "USA",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.6484
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.79448907857389,
+          25.55449135960644
+        ]
+      },
+      "properties": {
+        "id": "N0080",
+        "name": "Orion Systems",
+        "country": "Mexico",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.44540337644857,
+          22.255139213614424
+        ]
+      },
+      "properties": {
+        "id": "N0081",
+        "name": "Vertex Logistics Co.",
+        "country": "Mexico",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.4293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.65401902925748,
+          36.00813814154196
+        ]
+      },
+      "properties": {
+        "id": "N0082",
+        "name": "Nimbus Textiles Ltd.",
+        "country": "China",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.6024
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.142381895141128,
+          52.703886188127285
+        ]
+      },
+      "properties": {
+        "id": "N0083",
+        "name": "Atlas Holdings",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.2716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.182960710082563,
+          50.54793156652628
+        ]
+      },
+      "properties": {
+        "id": "N0084",
+        "name": "Kestrel Industries",
+        "country": "Netherlands",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.3943
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.00031371751673,
+          38.62613209083477
+        ]
+      },
+      "properties": {
+        "id": "N0085",
+        "name": "Solace Trading Ltd.",
+        "country": "USA",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.3216
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.516414024437992,
+          53.661289205675274
+        ]
+      },
+      "properties": {
+        "id": "N0086",
+        "name": "Ferrovia Manufacturing",
+        "country": "Netherlands",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.4637
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.409714454352766,
+          49.31844568898054
+        ]
+      },
+      "properties": {
+        "id": "N0087",
+        "name": "Brightloom Foundry",
+        "country": "Germany",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.2357
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.10587246957127,
+          37.669309622420826
+        ]
+      },
+      "properties": {
+        "id": "N0088",
+        "name": "Cascadia Materials",
+        "country": "Japan",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.6022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.86452847936745,
+          13.291771403334268
+        ]
+      },
+      "properties": {
+        "id": "N0089",
+        "name": "Ironclad Chemicals Inc.",
+        "country": "Vietnam",
+        "industry": "Chemicals",
+        "tier": 1,
+        "risk_score": 0.4401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7476105822453,
+          35.45885591895626
+        ]
+      },
+      "properties": {
+        "id": "N0090",
+        "name": "Meridian Components",
+        "country": "China",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.7187
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.569989294691796,
+          54.233061914938155
+        ]
+      },
+      "properties": {
+        "id": "N0091",
+        "name": "Solstice Group",
+        "country": "Netherlands",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.2491
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.666339179595543,
+          48.69330897291573
+        ]
+      },
+      "properties": {
+        "id": "N0092",
+        "name": "Quantum Systems",
+        "country": "Germany",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.2715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.49543172485602,
+          -12.34010874186976
+        ]
+      },
+      "properties": {
+        "id": "N0093",
+        "name": "Harbor Logistics Co.",
+        "country": "Brazil",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.7747
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.679194168084884,
+          -14.568238436621744
+        ]
+      },
+      "properties": {
+        "id": "N0094",
+        "name": "Evergreen Textiles Ltd.",
+        "country": "Brazil",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.1192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.93954631863839,
+          25.766886072056693
+        ]
+      },
+      "properties": {
+        "id": "N0095",
+        "name": "Zenith Holdings",
+        "country": "Mexico",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.4947
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.86650660360677,
+          24.857615045632095
+        ]
+      },
+      "properties": {
+        "id": "N0096",
+        "name": "Palisade Industries",
+        "country": "Mexico",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.5137
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.45492511677124,
+          24.444936002642454
+        ]
+      },
+      "properties": {
+        "id": "N0097",
+        "name": "Northstar Trading Ltd.",
+        "country": "Mexico",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.8271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.40534357017667,
+          34.80520918070752
+        ]
+      },
+      "properties": {
+        "id": "N0098",
+        "name": "Tundra Manufacturing",
+        "country": "China",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.3347
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.04033812053432,
+          34.4973316817556
+        ]
+      },
+      "properties": {
+        "id": "N0099",
+        "name": "Beacon Foundry",
+        "country": "China",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.2556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225055886208874,
+          52.57338859509543
+        ]
+      },
+      "properties": {
+        "id": "N0100",
+        "name": "Orion Materials",
+        "country": "Netherlands",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.5341
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.175384050426798,
+          52.72095939504109
+        ]
+      },
+      "properties": {
+        "id": "N0101",
+        "name": "Vertex Chemicals Inc.",
+        "country": "Germany",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.2763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.24852803648628,
+          16.07804640900171
+        ]
+      },
+      "properties": {
+        "id": "N0102",
+        "name": "Nimbus Components",
+        "country": "Vietnam",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.1747
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.23283582492024,
+          38.31927399778621
+        ]
+      },
+      "properties": {
+        "id": "N0103",
+        "name": "Atlas Group",
+        "country": "Japan",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.54523297990274,
+          -12.24162581988101
+        ]
+      },
+      "properties": {
+        "id": "N0104",
+        "name": "Kestrel Systems",
+        "country": "Brazil",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.5032
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.5064913365548,
+          11.625722483435565
+        ]
+      },
+      "properties": {
+        "id": "N0105",
+        "name": "Solace Logistics Co.",
+        "country": "Vietnam",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.5457
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.55055965635754,
+          21.989107952683685
+        ]
+      },
+      "properties": {
+        "id": "N0106",
+        "name": "Ferrovia Textiles Ltd.",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.4698
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.32482067707913,
+          36.67448052152414
+        ]
+      },
+      "properties": {
+        "id": "N0107",
+        "name": "Brightloom Holdings",
+        "country": "China",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.7267
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.15521231625544,
+          20.158752238647885
+        ]
+      },
+      "properties": {
+        "id": "N0108",
+        "name": "Cascadia Industries",
+        "country": "India",
+        "industry": "Electronics",
+        "tier": 1,
+        "risk_score": 0.5066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.496763287089976,
+          52.69081954812957
+        ]
+      },
+      "properties": {
+        "id": "N0109",
+        "name": "Ironclad Trading Ltd.",
+        "country": "Netherlands",
+        "industry": "Textiles",
+        "tier": 1,
+        "risk_score": 0.2418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.90167641770165,
+          35.85237422123516
+        ]
+      },
+      "properties": {
+        "id": "N0110",
+        "name": "Meridian Manufacturing",
+        "country": "USA",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.4668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.29837444106607,
+          36.97598748339532
+        ]
+      },
+      "properties": {
+        "id": "N0111",
+        "name": "Solstice Foundry",
+        "country": "USA",
+        "industry": "Semiconductors",
+        "tier": 1,
+        "risk_score": 0.3103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.936668360316046,
+          50.42920815098298
+        ]
+      },
+      "properties": {
+        "id": "N0112",
+        "name": "Quantum Materials",
+        "country": "Germany",
+        "industry": "Automotive",
+        "tier": 1,
+        "risk_score": 0.3742
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.96594576391539,
+          23.803185202763885
+        ]
+      },
+      "properties": {
+        "id": "N0113",
+        "name": "Harbor Chemicals Inc.",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.5722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4183595944106,
+          18.946511303762218
+        ]
+      },
+      "properties": {
+        "id": "N0114",
+        "name": "Evergreen Components",
+        "country": "India",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.5198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.49025519581457,
+          22.69883255636816
+        ]
+      },
+      "properties": {
+        "id": "N0115",
+        "name": "Zenith Group",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.2271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.392476399261454,
+          -12.622506187232096
+        ]
+      },
+      "properties": {
+        "id": "N0116",
+        "name": "Palisade Systems",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.492
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.262772840271799,
+          51.81303605150042
+        ]
+      },
+      "properties": {
+        "id": "N0117",
+        "name": "Northstar Logistics Co.",
+        "country": "Germany",
+        "industry": "Agrifood",
+        "tier": 1,
+        "risk_score": 0.5363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.05698516846667,
+          33.60965926097665
+        ]
+      },
+      "properties": {
+        "id": "N0118",
+        "name": "Tundra Textiles Ltd.",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 1,
+        "risk_score": 0.6136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.90633089213341,
+          34.752930556017496
+        ]
+      },
+      "properties": {
+        "id": "N0119",
+        "name": "Beacon Holdings",
+        "country": "South Korea",
+        "industry": "Pharma",
+        "tier": 1,
+        "risk_score": 0.3048
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.63450006526396,
+          35.524920022002334
+        ]
+      },
+      "properties": {
+        "id": "N0120",
+        "name": "Inferred-N0120",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2790432486319,
+          37.29248830361389
+        ]
+      },
+      "properties": {
+        "id": "N0121",
+        "name": "Inferred-N0121",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1522
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.33431643121634,
+          33.63416794654896
+        ]
+      },
+      "properties": {
+        "id": "N0122",
+        "name": "Inferred-N0122",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4608
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.04208344231594,
+          33.98313117272531
+        ]
+      },
+      "properties": {
+        "id": "N0123",
+        "name": "Inferred-N0123",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.97224467369614,
+          38.23346265587997
+        ]
+      },
+      "properties": {
+        "id": "N0124",
+        "name": "Inferred-N0124",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2945
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.21060003377465,
+          33.79064003867673
+        ]
+      },
+      "properties": {
+        "id": "N0125",
+        "name": "Inferred-N0125",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3653
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.522899001530376,
+          50.24948122013516
+        ]
+      },
+      "properties": {
+        "id": "N0126",
+        "name": "Inferred-N0126",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3859
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.19543193349108,
+          -14.983552208475878
+        ]
+      },
+      "properties": {
+        "id": "N0127",
+        "name": "Inferred-N0127",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2467
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.625827071930075,
+          -13.806934395428069
+        ]
+      },
+      "properties": {
+        "id": "N0128",
+        "name": "Inferred-N0128",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1688
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.78611848426239,
+          -15.784589996784078
+        ]
+      },
+      "properties": {
+        "id": "N0129",
+        "name": "Inferred-N0129",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3759
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.652370281685556,
+          -16.12122488082908
+        ]
+      },
+      "properties": {
+        "id": "N0130",
+        "name": "Inferred-N0130",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4351
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.52880968945873,
+          -13.159785889869948
+        ]
+      },
+      "properties": {
+        "id": "N0131",
+        "name": "Inferred-N0131",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2649
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.35278072278803,
+          18.489506150436927
+        ]
+      },
+      "properties": {
+        "id": "N0132",
+        "name": "Inferred-N0132",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.18782566211107,
+          36.45637287813492
+        ]
+      },
+      "properties": {
+        "id": "N0133",
+        "name": "Inferred-N0133",
+        "country": "USA",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.1377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.30867659074528,
+          38.50310917367502
+        ]
+      },
+      "properties": {
+        "id": "N0134",
+        "name": "Inferred-N0134",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09536744987454,
+          38.59580454779563
+        ]
+      },
+      "properties": {
+        "id": "N0135",
+        "name": "Inferred-N0135",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.34789927857203,
+          36.74796798665318
+        ]
+      },
+      "properties": {
+        "id": "N0136",
+        "name": "Inferred-N0136",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4585
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.304403302779369,
+          52.1107580098526
+        ]
+      },
+      "properties": {
+        "id": "N0137",
+        "name": "Inferred-N0137",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4779
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.260616058196607,
+          51.73256948881928
+        ]
+      },
+      "properties": {
+        "id": "N0138",
+        "name": "Inferred-N0138",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.1949
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.015416482189634,
+          51.93419956214447
+        ]
+      },
+      "properties": {
+        "id": "N0139",
+        "name": "Inferred-N0139",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.187
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.265845738869237,
+          52.30918692045252
+        ]
+      },
+      "properties": {
+        "id": "N0140",
+        "name": "Inferred-N0140",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.5176
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.92555727271584,
+          21.48790498566394
+        ]
+      },
+      "properties": {
+        "id": "N0141",
+        "name": "Inferred-N0141",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.65165356740003,
+          23.25927528211347
+        ]
+      },
+      "properties": {
+        "id": "N0142",
+        "name": "Inferred-N0142",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2093
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.17882151570873,
+          25.812420355288864
+        ]
+      },
+      "properties": {
+        "id": "N0143",
+        "name": "Inferred-N0143",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1373
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.09541551804725,
+          25.619270991052506
+        ]
+      },
+      "properties": {
+        "id": "N0144",
+        "name": "Inferred-N0144",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.482
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.10071607152207,
+          12.870898628884962
+        ]
+      },
+      "properties": {
+        "id": "N0145",
+        "name": "Inferred-N0145",
+        "country": "Vietnam",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.84610852969912,
+          12.17573024612151
+        ]
+      },
+      "properties": {
+        "id": "N0146",
+        "name": "Inferred-N0146",
+        "country": "Vietnam",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.3288
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.993282499828204,
+          -13.428551982872495
+        ]
+      },
+      "properties": {
+        "id": "N0147",
+        "name": "Inferred-N0147",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1402
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.09219211710135,
+          -12.777653074546548
+        ]
+      },
+      "properties": {
+        "id": "N0148",
+        "name": "Inferred-N0148",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.5221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56921977296363,
+          37.36867588156425
+        ]
+      },
+      "properties": {
+        "id": "N0149",
+        "name": "Inferred-N0149",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2683
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.68879384981773,
+          34.21566622449535
+        ]
+      },
+      "properties": {
+        "id": "N0150",
+        "name": "Inferred-N0150",
+        "country": "Japan",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.46759180113563,
+          33.72450639283462
+        ]
+      },
+      "properties": {
+        "id": "N0151",
+        "name": "Inferred-N0151",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4309
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0015643050971,
+          15.431520101602135
+        ]
+      },
+      "properties": {
+        "id": "N0152",
+        "name": "Inferred-N0152",
+        "country": "Vietnam",
+        "industry": "Semiconductors",
+        "tier": 2,
+        "risk_score": 0.448
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.446497961104175,
+          49.12899437980062
+        ]
+      },
+      "properties": {
+        "id": "N0153",
+        "name": "Inferred-N0153",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.1638
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.845768024751784,
+          53.07233958422246
+        ]
+      },
+      "properties": {
+        "id": "N0154",
+        "name": "Inferred-N0154",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.157677872937194,
+          48.787436846400944
+        ]
+      },
+      "properties": {
+        "id": "N0155",
+        "name": "Inferred-N0155",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4628
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1697162700853,
+          49.27641735887034
+        ]
+      },
+      "properties": {
+        "id": "N0156",
+        "name": "Inferred-N0156",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.970909756435051,
+          52.99767384715085
+        ]
+      },
+      "properties": {
+        "id": "N0157",
+        "name": "Inferred-N0157",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.685382095105279,
+          54.392056592274265
+        ]
+      },
+      "properties": {
+        "id": "N0158",
+        "name": "Inferred-N0158",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.5286
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.971346349278293,
+          53.62373624804561
+        ]
+      },
+      "properties": {
+        "id": "N0159",
+        "name": "Inferred-N0159",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3873
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.346628716327505,
+          53.4670926888152
+        ]
+      },
+      "properties": {
+        "id": "N0160",
+        "name": "Inferred-N0160",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.51628151258593,
+          24.705789639290614
+        ]
+      },
+      "properties": {
+        "id": "N0161",
+        "name": "Inferred-N0161",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37718827749343,
+          24.874824606922026
+        ]
+      },
+      "properties": {
+        "id": "N0162",
+        "name": "Inferred-N0162",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.80876566240852,
+          -16.43430250860311
+        ]
+      },
+      "properties": {
+        "id": "N0163",
+        "name": "Inferred-N0163",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.28970334420585,
+          -13.920113264157543
+        ]
+      },
+      "properties": {
+        "id": "N0164",
+        "name": "Inferred-N0164",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.53113779284161,
+          -15.529369687499491
+        ]
+      },
+      "properties": {
+        "id": "N0165",
+        "name": "Inferred-N0165",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3372
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.35009509726937,
+          -15.490169595549215
+        ]
+      },
+      "properties": {
+        "id": "N0166",
+        "name": "Inferred-N0166",
+        "country": "Brazil",
+        "industry": "Electronics",
+        "tier": 2,
+        "risk_score": 0.4878
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.461350253041985,
+          -12.972283452800525
+        ]
+      },
+      "properties": {
+        "id": "N0167",
+        "name": "Inferred-N0167",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.446801702277185,
+          -14.902643253823612
+        ]
+      },
+      "properties": {
+        "id": "N0168",
+        "name": "Inferred-N0168",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.33891174352488,
+          -14.988577581471253
+        ]
+      },
+      "properties": {
+        "id": "N0169",
+        "name": "Inferred-N0169",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3345
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2515480531478,
+          34.11630243418085
+        ]
+      },
+      "properties": {
+        "id": "N0170",
+        "name": "Inferred-N0170",
+        "country": "Japan",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.299
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.81415686173747,
+          38.5652822870571
+        ]
+      },
+      "properties": {
+        "id": "N0171",
+        "name": "Inferred-N0171",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75310245660212,
+          52.40704500373793
+        ]
+      },
+      "properties": {
+        "id": "N0172",
+        "name": "Inferred-N0172",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2324
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.730580110096373,
+          52.124190551057644
+        ]
+      },
+      "properties": {
+        "id": "N0173",
+        "name": "Inferred-N0173",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.535460382907068,
+          52.03927905395374
+        ]
+      },
+      "properties": {
+        "id": "N0174",
+        "name": "Inferred-N0174",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.164765019754018,
+          51.08860446170623
+        ]
+      },
+      "properties": {
+        "id": "N0175",
+        "name": "Inferred-N0175",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.536636992789185,
+          54.11700647382271
+        ]
+      },
+      "properties": {
+        "id": "N0176",
+        "name": "Inferred-N0176",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3411
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.530774038564459,
+          50.10930365420723
+        ]
+      },
+      "properties": {
+        "id": "N0177",
+        "name": "Inferred-N0177",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.5198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.376269414078147,
+          54.21307190606888
+        ]
+      },
+      "properties": {
+        "id": "N0178",
+        "name": "Inferred-N0178",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.384553204555259,
+          51.84526762792722
+        ]
+      },
+      "properties": {
+        "id": "N0179",
+        "name": "Inferred-N0179",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1656
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.126786812247795,
+          50.560555169891
+        ]
+      },
+      "properties": {
+        "id": "N0180",
+        "name": "Inferred-N0180",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.718086575702514,
+          50.62589918354732
+        ]
+      },
+      "properties": {
+        "id": "N0181",
+        "name": "Inferred-N0181",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3773
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.951525877248159,
+          51.2042376422431
+        ]
+      },
+      "properties": {
+        "id": "N0182",
+        "name": "Inferred-N0182",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3092
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.717127773893445,
+          52.12566203959415
+        ]
+      },
+      "properties": {
+        "id": "N0183",
+        "name": "Inferred-N0183",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.476666457030703,
+          50.1493181669483
+        ]
+      },
+      "properties": {
+        "id": "N0184",
+        "name": "Inferred-N0184",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.78180263546952,
+          23.196003404379823
+        ]
+      },
+      "properties": {
+        "id": "N0185",
+        "name": "Inferred-N0185",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2688
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7141323980164,
+          24.053241555085556
+        ]
+      },
+      "properties": {
+        "id": "N0186",
+        "name": "Inferred-N0186",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2245
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.905623782131584,
+          50.71802438926799
+        ]
+      },
+      "properties": {
+        "id": "N0187",
+        "name": "Inferred-N0187",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.703750514411338,
+          52.02744807795051
+        ]
+      },
+      "properties": {
+        "id": "N0188",
+        "name": "Inferred-N0188",
+        "country": "Netherlands",
+        "industry": "Semiconductors",
+        "tier": 2,
+        "risk_score": 0.4655
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.592351781682124,
+          50.49123870946053
+        ]
+      },
+      "properties": {
+        "id": "N0189",
+        "name": "Inferred-N0189",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.4725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.661022755794312,
+          51.24021077940597
+        ]
+      },
+      "properties": {
+        "id": "N0190",
+        "name": "Inferred-N0190",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.746089656708829,
+          50.34805065193836
+        ]
+      },
+      "properties": {
+        "id": "N0191",
+        "name": "Inferred-N0191",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.785003208732495,
+          52.02794931193772
+        ]
+      },
+      "properties": {
+        "id": "N0192",
+        "name": "Inferred-N0192",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.8769413224699,
+          23.470264789034314
+        ]
+      },
+      "properties": {
+        "id": "N0193",
+        "name": "Inferred-N0193",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.5234
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.26439376369974,
+          25.23807559834408
+        ]
+      },
+      "properties": {
+        "id": "N0194",
+        "name": "Inferred-N0194",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3211
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.44645490525758,
+          23.536496591597402
+        ]
+      },
+      "properties": {
+        "id": "N0195",
+        "name": "Inferred-N0195",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1686
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2713115474252,
+          37.693244719637754
+        ]
+      },
+      "properties": {
+        "id": "N0196",
+        "name": "Inferred-N0196",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.07129435829245,
+          37.07794220663052
+        ]
+      },
+      "properties": {
+        "id": "N0197",
+        "name": "Inferred-N0197",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3919
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4180075452845,
+          35.74697604056048
+        ]
+      },
+      "properties": {
+        "id": "N0198",
+        "name": "Inferred-N0198",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1891
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8584417883058,
+          34.58389360995031
+        ]
+      },
+      "properties": {
+        "id": "N0199",
+        "name": "Inferred-N0199",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4614
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0635734770213,
+          36.78675407786906
+        ]
+      },
+      "properties": {
+        "id": "N0200",
+        "name": "Inferred-N0200",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.48045901962266,
+          37.67940755002843
+        ]
+      },
+      "properties": {
+        "id": "N0201",
+        "name": "Inferred-N0201",
+        "country": "South Korea",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.243115136678506,
+          49.61811583965275
+        ]
+      },
+      "properties": {
+        "id": "N0202",
+        "name": "Inferred-N0202",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.348
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.473671577689908,
+          49.60592873297289
+        ]
+      },
+      "properties": {
+        "id": "N0203",
+        "name": "Inferred-N0203",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3983
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.55120000042854,
+          25.422977826176563
+        ]
+      },
+      "properties": {
+        "id": "N0204",
+        "name": "Inferred-N0204",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.72450530659324,
+          22.40503965682199
+        ]
+      },
+      "properties": {
+        "id": "N0205",
+        "name": "Inferred-N0205",
+        "country": "Mexico",
+        "industry": "Electronics",
+        "tier": 2,
+        "risk_score": 0.3239
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.9335235502214,
+          22.697083790274974
+        ]
+      },
+      "properties": {
+        "id": "N0206",
+        "name": "Inferred-N0206",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.620372919814,
+          24.77484216268724
+        ]
+      },
+      "properties": {
+        "id": "N0207",
+        "name": "Inferred-N0207",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1388
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.88035428398284,
+          21.593211658007494
+        ]
+      },
+      "properties": {
+        "id": "N0208",
+        "name": "Inferred-N0208",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.26669457657795,
+          22.588816939448026
+        ]
+      },
+      "properties": {
+        "id": "N0209",
+        "name": "Inferred-N0209",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.3177
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67246319142572,
+          24.031500230062527
+        ]
+      },
+      "properties": {
+        "id": "N0210",
+        "name": "Inferred-N0210",
+        "country": "Mexico",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.37400968564562,
+          33.39441847970278
+        ]
+      },
+      "properties": {
+        "id": "N0211",
+        "name": "Inferred-N0211",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.5258
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.88950264654927,
+          20.271106708186704
+        ]
+      },
+      "properties": {
+        "id": "N0212",
+        "name": "Inferred-N0212",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.431
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.50447302556152,
+          -15.689518664020916
+        ]
+      },
+      "properties": {
+        "id": "N0213",
+        "name": "Inferred-N0213",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2802
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.47540000388677,
+          -11.963313477263489
+        ]
+      },
+      "properties": {
+        "id": "N0214",
+        "name": "Inferred-N0214",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.511
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.34588349921074,
+          36.42178267385116
+        ]
+      },
+      "properties": {
+        "id": "N0215",
+        "name": "Inferred-N0215",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1837
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.077165262124,
+          35.07380622611359
+        ]
+      },
+      "properties": {
+        "id": "N0216",
+        "name": "Inferred-N0216",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4693
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.13594506112798,
+          33.92264502698254
+        ]
+      },
+      "properties": {
+        "id": "N0217",
+        "name": "Inferred-N0217",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.18452826319965,
+          37.90381001185359
+        ]
+      },
+      "properties": {
+        "id": "N0218",
+        "name": "Inferred-N0218",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.5123
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.57111704343663,
+          38.06643772559995
+        ]
+      },
+      "properties": {
+        "id": "N0219",
+        "name": "Inferred-N0219",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.48661664018078,
+          37.222096233980096
+        ]
+      },
+      "properties": {
+        "id": "N0220",
+        "name": "Inferred-N0220",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.07943597398574,
+          34.83767013545713
+        ]
+      },
+      "properties": {
+        "id": "N0221",
+        "name": "Inferred-N0221",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.820275002768274,
+          52.9003918570362
+        ]
+      },
+      "properties": {
+        "id": "N0222",
+        "name": "Inferred-N0222",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.5013
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.560948460118813,
+          50.95795870703332
+        ]
+      },
+      "properties": {
+        "id": "N0223",
+        "name": "Inferred-N0223",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.154125250505183,
+          54.436631816123814
+        ]
+      },
+      "properties": {
+        "id": "N0224",
+        "name": "Inferred-N0224",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64351974089136,
+          37.270836525771045
+        ]
+      },
+      "properties": {
+        "id": "N0225",
+        "name": "Inferred-N0225",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3268
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.44921113984573,
+          37.05940361368221
+        ]
+      },
+      "properties": {
+        "id": "N0226",
+        "name": "Inferred-N0226",
+        "country": "USA",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.81728079349197,
+          38.180466540099076
+        ]
+      },
+      "properties": {
+        "id": "N0227",
+        "name": "Inferred-N0227",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1877
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.30010106154403,
+          37.42195710712163
+        ]
+      },
+      "properties": {
+        "id": "N0228",
+        "name": "Inferred-N0228",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.944422199336511,
+          52.85833902128784
+        ]
+      },
+      "properties": {
+        "id": "N0229",
+        "name": "Inferred-N0229",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2883
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.239596253036803,
+          50.525522101625036
+        ]
+      },
+      "properties": {
+        "id": "N0230",
+        "name": "Inferred-N0230",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3696
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.405654107489281,
+          52.90685655855528
+        ]
+      },
+      "properties": {
+        "id": "N0231",
+        "name": "Inferred-N0231",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.239
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.496921254128608,
+          54.28922041087528
+        ]
+      },
+      "properties": {
+        "id": "N0232",
+        "name": "Inferred-N0232",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1917
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.392386848985733,
+          51.287649563438364
+        ]
+      },
+      "properties": {
+        "id": "N0233",
+        "name": "Inferred-N0233",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.5207
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.52461913602673,
+          36.68716397658503
+        ]
+      },
+      "properties": {
+        "id": "N0234",
+        "name": "Inferred-N0234",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.0385192737867,
+          36.937434036541845
+        ]
+      },
+      "properties": {
+        "id": "N0235",
+        "name": "Inferred-N0235",
+        "country": "Japan",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.5089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.63190614079934,
+          35.262213628821506
+        ]
+      },
+      "properties": {
+        "id": "N0236",
+        "name": "Inferred-N0236",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.36917719264466,
+          49.97298137230504
+        ]
+      },
+      "properties": {
+        "id": "N0237",
+        "name": "Inferred-N0237",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.346
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.505675628776024,
+          53.40240220284947
+        ]
+      },
+      "properties": {
+        "id": "N0238",
+        "name": "Inferred-N0238",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.586111728990623,
+          53.328193557256995
+        ]
+      },
+      "properties": {
+        "id": "N0239",
+        "name": "Inferred-N0239",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.18689841648462,
+          34.739230340974146
+        ]
+      },
+      "properties": {
+        "id": "N0240",
+        "name": "Inferred-N0240",
+        "country": "South Korea",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.3476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.48055413330715,
+          37.77270092191263
+        ]
+      },
+      "properties": {
+        "id": "N0241",
+        "name": "Inferred-N0241",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1553
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.50598146049104,
+          35.93355896947041
+        ]
+      },
+      "properties": {
+        "id": "N0242",
+        "name": "Inferred-N0242",
+        "country": "South Korea",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.1636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.27945315855561,
+          24.97450690875654
+        ]
+      },
+      "properties": {
+        "id": "N0243",
+        "name": "Inferred-N0243",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.4083
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.03330569832653,
+          22.79431318763805
+        ]
+      },
+      "properties": {
+        "id": "N0244",
+        "name": "Inferred-N0244",
+        "country": "Mexico",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.2142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1914480928619,
+          23.837490615887784
+        ]
+      },
+      "properties": {
+        "id": "N0245",
+        "name": "Inferred-N0245",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.5204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.81558161543182,
+          22.894422822669362
+        ]
+      },
+      "properties": {
+        "id": "N0246",
+        "name": "Inferred-N0246",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.622437570323,
+          33.97065440742606
+        ]
+      },
+      "properties": {
+        "id": "N0247",
+        "name": "Inferred-N0247",
+        "country": "South Korea",
+        "industry": "Electronics",
+        "tier": 2,
+        "risk_score": 0.3158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.83342387811685,
+          33.90824352120912
+        ]
+      },
+      "properties": {
+        "id": "N0248",
+        "name": "Inferred-N0248",
+        "country": "South Korea",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.2175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.90644663662064,
+          37.30491531662443
+        ]
+      },
+      "properties": {
+        "id": "N0249",
+        "name": "Inferred-N0249",
+        "country": "South Korea",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.4181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.484152385626295,
+          -15.815770352103804
+        ]
+      },
+      "properties": {
+        "id": "N0250",
+        "name": "Inferred-N0250",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.506
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1765872525865,
+          20.17327668421526
+        ]
+      },
+      "properties": {
+        "id": "N0251",
+        "name": "Inferred-N0251",
+        "country": "India",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.5265
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.20350209267721,
+          22.168740886725857
+        ]
+      },
+      "properties": {
+        "id": "N0252",
+        "name": "Inferred-N0252",
+        "country": "India",
+        "industry": "Semiconductors",
+        "tier": 2,
+        "risk_score": 0.2458
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1923557831169,
+          21.049581487174855
+        ]
+      },
+      "properties": {
+        "id": "N0253",
+        "name": "Inferred-N0253",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2736
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.42819224002659,
+          20.08209711693956
+        ]
+      },
+      "properties": {
+        "id": "N0254",
+        "name": "Inferred-N0254",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2131
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.20815897364584,
+          23.76800606766087
+        ]
+      },
+      "properties": {
+        "id": "N0255",
+        "name": "Inferred-N0255",
+        "country": "Mexico",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7992470305562,
+          22.140383660665474
+        ]
+      },
+      "properties": {
+        "id": "N0256",
+        "name": "Inferred-N0256",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1472
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8995627253392,
+          25.038314715810763
+        ]
+      },
+      "properties": {
+        "id": "N0257",
+        "name": "Inferred-N0257",
+        "country": "Mexico",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.15600056675177,
+          37.375782305778436
+        ]
+      },
+      "properties": {
+        "id": "N0258",
+        "name": "Inferred-N0258",
+        "country": "China",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.61573151632948,
+          38.106613979880194
+        ]
+      },
+      "properties": {
+        "id": "N0259",
+        "name": "Inferred-N0259",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1466
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.69528345307727,
+          14.323032015642667
+        ]
+      },
+      "properties": {
+        "id": "N0260",
+        "name": "Inferred-N0260",
+        "country": "Vietnam",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.4535
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.66488337133372,
+          14.728209511705371
+        ]
+      },
+      "properties": {
+        "id": "N0261",
+        "name": "Inferred-N0261",
+        "country": "Vietnam",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.4568
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.95701762555919,
+          21.52315067540641
+        ]
+      },
+      "properties": {
+        "id": "N0262",
+        "name": "Inferred-N0262",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.88036085688225,
+          22.390053964094875
+        ]
+      },
+      "properties": {
+        "id": "N0263",
+        "name": "Inferred-N0263",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.09417191930264,
+          21.0968198662432
+        ]
+      },
+      "properties": {
+        "id": "N0264",
+        "name": "Inferred-N0264",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.5281
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.31228241816028,
+          18.101864457558197
+        ]
+      },
+      "properties": {
+        "id": "N0265",
+        "name": "Inferred-N0265",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.75063728551909,
+          37.899687831766755
+        ]
+      },
+      "properties": {
+        "id": "N0266",
+        "name": "Inferred-N0266",
+        "country": "USA",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.90733275477189,
+          37.20819845531211
+        ]
+      },
+      "properties": {
+        "id": "N0267",
+        "name": "Inferred-N0267",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.3977395822067,
+          34.66718209915429
+        ]
+      },
+      "properties": {
+        "id": "N0268",
+        "name": "Inferred-N0268",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2309
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.25223520867706,
+          33.88531131791781
+        ]
+      },
+      "properties": {
+        "id": "N0269",
+        "name": "Inferred-N0269",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2855
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.9711112123569,
+          36.92979174355904
+        ]
+      },
+      "properties": {
+        "id": "N0270",
+        "name": "Inferred-N0270",
+        "country": "Japan",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2551093933549,
+          20.92002273303468
+        ]
+      },
+      "properties": {
+        "id": "N0271",
+        "name": "Inferred-N0271",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4831
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.13793892574459,
+          22.55025182130222
+        ]
+      },
+      "properties": {
+        "id": "N0272",
+        "name": "Inferred-N0272",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.57638947291406,
+          22.051878310469363
+        ]
+      },
+      "properties": {
+        "id": "N0273",
+        "name": "Inferred-N0273",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.5012
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.41049492201421,
+          34.84303494280268
+        ]
+      },
+      "properties": {
+        "id": "N0274",
+        "name": "Inferred-N0274",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.5099
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82081841965771,
+          35.757068947328406
+        ]
+      },
+      "properties": {
+        "id": "N0275",
+        "name": "Inferred-N0275",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.2748
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.56088712946934,
+          37.28440013985709
+        ]
+      },
+      "properties": {
+        "id": "N0276",
+        "name": "Inferred-N0276",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3687
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.85744620234506,
+          36.20558759690625
+        ]
+      },
+      "properties": {
+        "id": "N0277",
+        "name": "Inferred-N0277",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.13178335340749,
+          21.563298575483905
+        ]
+      },
+      "properties": {
+        "id": "N0278",
+        "name": "Inferred-N0278",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3517
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.46562962052774,
+          22.381456074978917
+        ]
+      },
+      "properties": {
+        "id": "N0279",
+        "name": "Inferred-N0279",
+        "country": "India",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8497606065859,
+          38.04487878568337
+        ]
+      },
+      "properties": {
+        "id": "N0280",
+        "name": "Inferred-N0280",
+        "country": "South Korea",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.4256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98796433619619,
+          37.108598257978876
+        ]
+      },
+      "properties": {
+        "id": "N0281",
+        "name": "Inferred-N0281",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2821
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.928699820315,
+          37.44340154160123
+        ]
+      },
+      "properties": {
+        "id": "N0282",
+        "name": "Inferred-N0282",
+        "country": "South Korea",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.4887
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.45512358885378,
+          37.717299971579706
+        ]
+      },
+      "properties": {
+        "id": "N0283",
+        "name": "Inferred-N0283",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4428
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.69500880046971,
+          37.19424712348317
+        ]
+      },
+      "properties": {
+        "id": "N0284",
+        "name": "Inferred-N0284",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.48350780161009,
+          33.95561070303946
+        ]
+      },
+      "properties": {
+        "id": "N0285",
+        "name": "Inferred-N0285",
+        "country": "South Korea",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.264
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.95151381290837,
+          49.05971155305405
+        ]
+      },
+      "properties": {
+        "id": "N0286",
+        "name": "Inferred-N0286",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.435700192797164,
+          49.47411130158209
+        ]
+      },
+      "properties": {
+        "id": "N0287",
+        "name": "Inferred-N0287",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.1864
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.637178472123507,
+          52.16638987585846
+        ]
+      },
+      "properties": {
+        "id": "N0288",
+        "name": "Inferred-N0288",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.94621135328035,
+          35.47055585028189
+        ]
+      },
+      "properties": {
+        "id": "N0289",
+        "name": "Inferred-N0289",
+        "country": "China",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.02202654546431,
+          34.88324955997501
+        ]
+      },
+      "properties": {
+        "id": "N0290",
+        "name": "Inferred-N0290",
+        "country": "China",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957289172648352,
+          52.455493772152366
+        ]
+      },
+      "properties": {
+        "id": "N0291",
+        "name": "Inferred-N0291",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.1839
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.932943581445514,
+          -15.83705469551027
+        ]
+      },
+      "properties": {
+        "id": "N0292",
+        "name": "Inferred-N0292",
+        "country": "Brazil",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.3662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.595336145133224,
+          -13.141539919650995
+        ]
+      },
+      "properties": {
+        "id": "N0293",
+        "name": "Inferred-N0293",
+        "country": "Brazil",
+        "industry": "Agrifood",
+        "tier": 2,
+        "risk_score": 0.3322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.78334424817827,
+          -14.885134059796282
+        ]
+      },
+      "properties": {
+        "id": "N0294",
+        "name": "Inferred-N0294",
+        "country": "Brazil",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.4678
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.31076506667857,
+          -13.757629094354465
+        ]
+      },
+      "properties": {
+        "id": "N0295",
+        "name": "Inferred-N0295",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1811
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.74497530529922,
+          33.37350275442725
+        ]
+      },
+      "properties": {
+        "id": "N0296",
+        "name": "Inferred-N0296",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3878
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.49738585291074,
+          15.475901309610535
+        ]
+      },
+      "properties": {
+        "id": "N0297",
+        "name": "Inferred-N0297",
+        "country": "Vietnam",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4904
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.75649768587547,
+          13.85993874333134
+        ]
+      },
+      "properties": {
+        "id": "N0298",
+        "name": "Inferred-N0298",
+        "country": "Vietnam",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.2089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6038195708591,
+          34.74643710040402
+        ]
+      },
+      "properties": {
+        "id": "N0299",
+        "name": "Inferred-N0299",
+        "country": "Japan",
+        "industry": "Electronics",
+        "tier": 2,
+        "risk_score": 0.4662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.5913790776103,
+          35.71873628436225
+        ]
+      },
+      "properties": {
+        "id": "N0300",
+        "name": "Inferred-N0300",
+        "country": "Japan",
+        "industry": "Chemicals",
+        "tier": 3,
+        "risk_score": 0.1903
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.3003467697159,
+          33.83741318655233
+        ]
+      },
+      "properties": {
+        "id": "N0301",
+        "name": "Inferred-N0301",
+        "country": "Japan",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.3668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7213757297695,
+          34.25116460542159
+        ]
+      },
+      "properties": {
+        "id": "N0302",
+        "name": "Inferred-N0302",
+        "country": "South Korea",
+        "industry": "Electronics",
+        "tier": 2,
+        "risk_score": 0.3046
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3821433229412,
+          33.708588717042936
+        ]
+      },
+      "properties": {
+        "id": "N0303",
+        "name": "Inferred-N0303",
+        "country": "South Korea",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.4505
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3087148496821,
+          35.65011508069397
+        ]
+      },
+      "properties": {
+        "id": "N0304",
+        "name": "Inferred-N0304",
+        "country": "South Korea",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.3851
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0455804788783927,
+          53.14721632160245
+        ]
+      },
+      "properties": {
+        "id": "N0305",
+        "name": "Inferred-N0305",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.5263
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68304416586612,
+          35.37651614305138
+        ]
+      },
+      "properties": {
+        "id": "N0306",
+        "name": "Inferred-N0306",
+        "country": "China",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.2767
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.52763334673193,
+          33.493315917438025
+        ]
+      },
+      "properties": {
+        "id": "N0307",
+        "name": "Inferred-N0307",
+        "country": "China",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3766
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.17135429043638,
+          34.454552436529205
+        ]
+      },
+      "properties": {
+        "id": "N0308",
+        "name": "Inferred-N0308",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.4271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.52379569608637,
+          35.73292998249249
+        ]
+      },
+      "properties": {
+        "id": "N0309",
+        "name": "Inferred-N0309",
+        "country": "China",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.69820455816806,
+          -13.627741866851245
+        ]
+      },
+      "properties": {
+        "id": "N0310",
+        "name": "Inferred-N0310",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.17054393144468,
+          -16.120272045939615
+        ]
+      },
+      "properties": {
+        "id": "N0311",
+        "name": "Inferred-N0311",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3421
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.054555804532484,
+          -13.101618738964037
+        ]
+      },
+      "properties": {
+        "id": "N0312",
+        "name": "Inferred-N0312",
+        "country": "Brazil",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.1927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.102980472845395,
+          -12.800803497508742
+        ]
+      },
+      "properties": {
+        "id": "N0313",
+        "name": "Inferred-N0313",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.3182
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.92725922612213,
+          -12.075405693886262
+        ]
+      },
+      "properties": {
+        "id": "N0314",
+        "name": "Inferred-N0314",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.10092922217722,
+          -15.49013613845697
+        ]
+      },
+      "properties": {
+        "id": "N0315",
+        "name": "Inferred-N0315",
+        "country": "Brazil",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06448016998174,
+          38.66334638152124
+        ]
+      },
+      "properties": {
+        "id": "N0316",
+        "name": "Inferred-N0316",
+        "country": "USA",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74142061618265,
+          36.31369570721106
+        ]
+      },
+      "properties": {
+        "id": "N0317",
+        "name": "Inferred-N0317",
+        "country": "USA",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.3777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.63633680766018,
+          53.04199317706348
+        ]
+      },
+      "properties": {
+        "id": "N0318",
+        "name": "Inferred-N0318",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.808281269996907,
+          52.59128860181695
+        ]
+      },
+      "properties": {
+        "id": "N0319",
+        "name": "Inferred-N0319",
+        "country": "Netherlands",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.4251
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.242672169323069,
+          49.78150851312401
+        ]
+      },
+      "properties": {
+        "id": "N0320",
+        "name": "Inferred-N0320",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9730299750658022,
+          50.481669740044815
+        ]
+      },
+      "properties": {
+        "id": "N0321",
+        "name": "Inferred-N0321",
+        "country": "Netherlands",
+        "industry": "Logistics",
+        "tier": 3,
+        "risk_score": 0.1871
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.221558713530303,
+          48.93971821446363
+        ]
+      },
+      "properties": {
+        "id": "N0322",
+        "name": "Inferred-N0322",
+        "country": "Germany",
+        "industry": "Chemicals",
+        "tier": 2,
+        "risk_score": 0.3873
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.70344258918854,
+          37.861504239858824
+        ]
+      },
+      "properties": {
+        "id": "N0323",
+        "name": "Inferred-N0323",
+        "country": "China",
+        "industry": "Electronics",
+        "tier": 2,
+        "risk_score": 0.4889
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0843894653016,
+          38.22923604299912
+        ]
+      },
+      "properties": {
+        "id": "N0324",
+        "name": "Inferred-N0324",
+        "country": "China",
+        "industry": "Semiconductors",
+        "tier": 3,
+        "risk_score": 0.4311
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.536878096742239,
+          52.687943459698374
+        ]
+      },
+      "properties": {
+        "id": "N0325",
+        "name": "Inferred-N0325",
+        "country": "Germany",
+        "industry": "Logistics",
+        "tier": 2,
+        "risk_score": 0.4956
+      }
+    }
+  ]
+}
