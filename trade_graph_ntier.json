@@ -1,0 +1,5747 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "name": "Orion Industries",
+      "country": "China",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.767,
+      "id": "N0000"
+    },
+    {
+      "name": "Vertex Trading Ltd.",
+      "country": "Germany",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.226,
+      "id": "N0001"
+    },
+    {
+      "name": "Nimbus Manufacturing",
+      "country": "China",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.631,
+      "id": "N0002"
+    },
+    {
+      "name": "Atlas Foundry",
+      "country": "USA",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.184,
+      "id": "N0003"
+    },
+    {
+      "name": "Kestrel Materials",
+      "country": "Germany",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.605,
+      "id": "N0004"
+    },
+    {
+      "name": "Solace Chemicals Inc.",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.298,
+      "id": "N0005"
+    },
+    {
+      "name": "Ferrovia Components",
+      "country": "Netherlands",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.828,
+      "id": "N0006"
+    },
+    {
+      "name": "Brightloom Group",
+      "country": "USA",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.728,
+      "id": "N0007"
+    },
+    {
+      "name": "Cascadia Systems",
+      "country": "Brazil",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.24,
+      "id": "N0008"
+    },
+    {
+      "name": "Ironclad Logistics Co.",
+      "country": "Brazil",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.183,
+      "id": "N0009"
+    },
+    {
+      "name": "Meridian Textiles Ltd.",
+      "country": "China",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.863,
+      "id": "N0010"
+    },
+    {
+      "name": "Solstice Holdings",
+      "country": "Netherlands",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.826,
+      "id": "N0011"
+    },
+    {
+      "name": "Quantum Industries",
+      "country": "South Korea",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.976,
+      "id": "N0012"
+    },
+    {
+      "name": "Harbor Trading Ltd.",
+      "country": "Japan",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.597,
+      "id": "N0013"
+    },
+    {
+      "name": "Evergreen Manufacturing",
+      "country": "Netherlands",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.62,
+      "id": "N0014"
+    },
+    {
+      "name": "Zenith Foundry",
+      "country": "China",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.695,
+      "id": "N0015"
+    },
+    {
+      "name": "Palisade Materials",
+      "country": "Vietnam",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.87,
+      "id": "N0016"
+    },
+    {
+      "name": "Northstar Chemicals Inc.",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.35,
+      "id": "N0017"
+    },
+    {
+      "name": "Tundra Components",
+      "country": "Brazil",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.433,
+      "id": "N0018"
+    },
+    {
+      "name": "Beacon Group",
+      "country": "Germany",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.732,
+      "id": "N0019"
+    },
+    {
+      "name": "Orion Systems",
+      "country": "China",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.581,
+      "id": "N0020"
+    },
+    {
+      "name": "Vertex Logistics Co.",
+      "country": "Germany",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.516,
+      "id": "N0021"
+    },
+    {
+      "name": "Nimbus Textiles Ltd.",
+      "country": "Vietnam",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.716,
+      "id": "N0022"
+    },
+    {
+      "name": "Atlas Holdings",
+      "country": "USA",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.84,
+      "id": "N0023"
+    },
+    {
+      "name": "Kestrel Industries",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.341,
+      "id": "N0024"
+    },
+    {
+      "name": "Solace Trading Ltd.",
+      "country": "Germany",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.291,
+      "id": "N0025"
+    },
+    {
+      "name": "Ferrovia Manufacturing",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.896,
+      "id": "N0026"
+    },
+    {
+      "name": "Brightloom Foundry",
+      "country": "South Korea",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.338,
+      "id": "N0027"
+    },
+    {
+      "name": "Cascadia Materials",
+      "country": "Germany",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.772,
+      "id": "N0028"
+    },
+    {
+      "name": "Ironclad Chemicals Inc.",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.426,
+      "id": "N0029"
+    },
+    {
+      "name": "Meridian Components",
+      "country": "India",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.182,
+      "id": "N0030"
+    },
+    {
+      "name": "Solstice Group",
+      "country": "USA",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.238,
+      "id": "N0031"
+    },
+    {
+      "name": "Quantum Systems",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.637,
+      "id": "N0032"
+    },
+    {
+      "name": "Harbor Logistics Co.",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.636,
+      "id": "N0033"
+    },
+    {
+      "name": "Evergreen Textiles Ltd.",
+      "country": "South Korea",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.974,
+      "id": "N0034"
+    },
+    {
+      "name": "Zenith Holdings",
+      "country": "USA",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.714,
+      "id": "N0035"
+    },
+    {
+      "name": "Palisade Industries",
+      "country": "Mexico",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.792,
+      "id": "N0036"
+    },
+    {
+      "name": "Northstar Trading Ltd.",
+      "country": "Brazil",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.364,
+      "id": "N0037"
+    },
+    {
+      "name": "Tundra Manufacturing",
+      "country": "India",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.103,
+      "id": "N0038"
+    },
+    {
+      "name": "Beacon Foundry",
+      "country": "Vietnam",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.557,
+      "id": "N0039"
+    },
+    {
+      "name": "Orion Materials",
+      "country": "China",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.858,
+      "id": "N0040"
+    },
+    {
+      "name": "Vertex Chemicals Inc.",
+      "country": "Mexico",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.238,
+      "id": "N0041"
+    },
+    {
+      "name": "Nimbus Components",
+      "country": "India",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.639,
+      "id": "N0042"
+    },
+    {
+      "name": "Atlas Group",
+      "country": "South Korea",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.201,
+      "id": "N0043"
+    },
+    {
+      "name": "Kestrel Systems",
+      "country": "Brazil",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.316,
+      "id": "N0044"
+    },
+    {
+      "name": "Solace Logistics Co.",
+      "country": "Germany",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.177,
+      "id": "N0045"
+    },
+    {
+      "name": "Ferrovia Textiles Ltd.",
+      "country": "South Korea",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.98,
+      "id": "N0046"
+    },
+    {
+      "name": "Brightloom Holdings",
+      "country": "Mexico",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.216,
+      "id": "N0047"
+    },
+    {
+      "name": "Cascadia Industries",
+      "country": "South Korea",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.339,
+      "id": "N0048"
+    },
+    {
+      "name": "Ironclad Trading Ltd.",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.968,
+      "id": "N0049"
+    },
+    {
+      "name": "Meridian Manufacturing",
+      "country": "Mexico",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.742,
+      "id": "N0050"
+    },
+    {
+      "name": "Solstice Foundry",
+      "country": "Japan",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.494,
+      "id": "N0051"
+    },
+    {
+      "name": "Quantum Materials",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.209,
+      "id": "N0052"
+    },
+    {
+      "name": "Harbor Chemicals Inc.",
+      "country": "Germany",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.404,
+      "id": "N0053"
+    },
+    {
+      "name": "Evergreen Components",
+      "country": "Netherlands",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.63,
+      "id": "N0054"
+    },
+    {
+      "name": "Zenith Group",
+      "country": "USA",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.737,
+      "id": "N0055"
+    },
+    {
+      "name": "Palisade Systems",
+      "country": "USA",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.161,
+      "id": "N0056"
+    },
+    {
+      "name": "Northstar Logistics Co.",
+      "country": "USA",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.164,
+      "id": "N0057"
+    },
+    {
+      "name": "Tundra Textiles Ltd.",
+      "country": "Germany",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.702,
+      "id": "N0058"
+    },
+    {
+      "name": "Beacon Holdings",
+      "country": "Germany",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.751,
+      "id": "N0059"
+    },
+    {
+      "name": "Orion Industries",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.319,
+      "id": "N0060"
+    },
+    {
+      "name": "Vertex Trading Ltd.",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.271,
+      "id": "N0061"
+    },
+    {
+      "name": "Nimbus Manufacturing",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.419,
+      "id": "N0062"
+    },
+    {
+      "name": "Atlas Foundry",
+      "country": "Japan",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.877,
+      "id": "N0063"
+    },
+    {
+      "name": "Kestrel Materials",
+      "country": "USA",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.155,
+      "id": "N0064"
+    },
+    {
+      "name": "Solace Chemicals Inc.",
+      "country": "Brazil",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.324,
+      "id": "N0065"
+    },
+    {
+      "name": "Ferrovia Components",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.226,
+      "id": "N0066"
+    },
+    {
+      "name": "Brightloom Group",
+      "country": "India",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.516,
+      "id": "N0067"
+    },
+    {
+      "name": "Cascadia Systems",
+      "country": "China",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.827,
+      "id": "N0068"
+    },
+    {
+      "name": "Ironclad Logistics Co.",
+      "country": "Mexico",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.146,
+      "id": "N0069"
+    },
+    {
+      "name": "Meridian Textiles Ltd.",
+      "country": "Mexico",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.972,
+      "id": "N0070"
+    },
+    {
+      "name": "Solstice Holdings",
+      "country": "Germany",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.466,
+      "id": "N0071"
+    },
+    {
+      "name": "Quantum Industries",
+      "country": "South Korea",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.878,
+      "id": "N0072"
+    },
+    {
+      "name": "Harbor Trading Ltd.",
+      "country": "USA",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.441,
+      "id": "N0073"
+    },
+    {
+      "name": "Evergreen Manufacturing",
+      "country": "Japan",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.934,
+      "id": "N0074"
+    },
+    {
+      "name": "Zenith Foundry",
+      "country": "South Korea",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.481,
+      "id": "N0075"
+    },
+    {
+      "name": "Palisade Materials",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.239,
+      "id": "N0076"
+    },
+    {
+      "name": "Northstar Chemicals Inc.",
+      "country": "Vietnam",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.972,
+      "id": "N0077"
+    },
+    {
+      "name": "Tundra Components",
+      "country": "Netherlands",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.773,
+      "id": "N0078"
+    },
+    {
+      "name": "Beacon Group",
+      "country": "USA",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.626,
+      "id": "N0079"
+    },
+    {
+      "name": "Orion Systems",
+      "country": "Mexico",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.151,
+      "id": "N0080"
+    },
+    {
+      "name": "Vertex Logistics Co.",
+      "country": "Mexico",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.866,
+      "id": "N0081"
+    },
+    {
+      "name": "Nimbus Textiles Ltd.",
+      "country": "China",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.708,
+      "id": "N0082"
+    },
+    {
+      "name": "Atlas Holdings",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.208,
+      "id": "N0083"
+    },
+    {
+      "name": "Kestrel Industries",
+      "country": "Netherlands",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.621,
+      "id": "N0084"
+    },
+    {
+      "name": "Solace Trading Ltd.",
+      "country": "USA",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.477,
+      "id": "N0085"
+    },
+    {
+      "name": "Ferrovia Manufacturing",
+      "country": "Netherlands",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.941,
+      "id": "N0086"
+    },
+    {
+      "name": "Brightloom Foundry",
+      "country": "Germany",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.315,
+      "id": "N0087"
+    },
+    {
+      "name": "Cascadia Materials",
+      "country": "Japan",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.705,
+      "id": "N0088"
+    },
+    {
+      "name": "Ironclad Chemicals Inc.",
+      "country": "Vietnam",
+      "industry": "Chemicals",
+      "tier": 1,
+      "criticality_score": 0.385,
+      "id": "N0089"
+    },
+    {
+      "name": "Meridian Components",
+      "country": "China",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.512,
+      "id": "N0090"
+    },
+    {
+      "name": "Solstice Group",
+      "country": "Netherlands",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.166,
+      "id": "N0091"
+    },
+    {
+      "name": "Quantum Systems",
+      "country": "Germany",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.219,
+      "id": "N0092"
+    },
+    {
+      "name": "Harbor Logistics Co.",
+      "country": "Brazil",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.891,
+      "id": "N0093"
+    },
+    {
+      "name": "Evergreen Textiles Ltd.",
+      "country": "Brazil",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.242,
+      "id": "N0094"
+    },
+    {
+      "name": "Zenith Holdings",
+      "country": "Mexico",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.651,
+      "id": "N0095"
+    },
+    {
+      "name": "Palisade Industries",
+      "country": "Mexico",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.701,
+      "id": "N0096"
+    },
+    {
+      "name": "Northstar Trading Ltd.",
+      "country": "Mexico",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.939,
+      "id": "N0097"
+    },
+    {
+      "name": "Tundra Manufacturing",
+      "country": "China",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.338,
+      "id": "N0098"
+    },
+    {
+      "name": "Beacon Foundry",
+      "country": "China",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.345,
+      "id": "N0099"
+    },
+    {
+      "name": "Orion Materials",
+      "country": "Netherlands",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.746,
+      "id": "N0100"
+    },
+    {
+      "name": "Vertex Chemicals Inc.",
+      "country": "Germany",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.555,
+      "id": "N0101"
+    },
+    {
+      "name": "Nimbus Components",
+      "country": "Vietnam",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.183,
+      "id": "N0102"
+    },
+    {
+      "name": "Atlas Group",
+      "country": "Japan",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.14,
+      "id": "N0103"
+    },
+    {
+      "name": "Kestrel Systems",
+      "country": "Brazil",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.673,
+      "id": "N0104"
+    },
+    {
+      "name": "Solace Logistics Co.",
+      "country": "Vietnam",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.767,
+      "id": "N0105"
+    },
+    {
+      "name": "Ferrovia Textiles Ltd.",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.605,
+      "id": "N0106"
+    },
+    {
+      "name": "Brightloom Holdings",
+      "country": "China",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.951,
+      "id": "N0107"
+    },
+    {
+      "name": "Cascadia Industries",
+      "country": "India",
+      "industry": "Electronics",
+      "tier": 1,
+      "criticality_score": 0.851,
+      "id": "N0108"
+    },
+    {
+      "name": "Ironclad Trading Ltd.",
+      "country": "Netherlands",
+      "industry": "Textiles",
+      "tier": 1,
+      "criticality_score": 0.487,
+      "id": "N0109"
+    },
+    {
+      "name": "Meridian Manufacturing",
+      "country": "USA",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.428,
+      "id": "N0110"
+    },
+    {
+      "name": "Solstice Foundry",
+      "country": "USA",
+      "industry": "Semiconductors",
+      "tier": 1,
+      "criticality_score": 0.289,
+      "id": "N0111"
+    },
+    {
+      "name": "Quantum Materials",
+      "country": "Germany",
+      "industry": "Automotive",
+      "tier": 1,
+      "criticality_score": 0.418,
+      "id": "N0112"
+    },
+    {
+      "name": "Harbor Chemicals Inc.",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.976,
+      "id": "N0113"
+    },
+    {
+      "name": "Evergreen Components",
+      "country": "India",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.878,
+      "id": "N0114"
+    },
+    {
+      "name": "Zenith Group",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.122,
+      "id": "N0115"
+    },
+    {
+      "name": "Palisade Systems",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.822,
+      "id": "N0116"
+    },
+    {
+      "name": "Northstar Logistics Co.",
+      "country": "Germany",
+      "industry": "Agrifood",
+      "tier": 1,
+      "criticality_score": 0.243,
+      "id": "N0117"
+    },
+    {
+      "name": "Tundra Textiles Ltd.",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 1,
+      "criticality_score": 0.885,
+      "id": "N0118"
+    },
+    {
+      "name": "Beacon Holdings",
+      "country": "South Korea",
+      "industry": "Pharma",
+      "tier": 1,
+      "criticality_score": 0.28,
+      "id": "N0119"
+    },
+    {
+      "name": "Inferred-N0120",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.621,
+      "inferred": true,
+      "id": "N0120"
+    },
+    {
+      "name": "Inferred-N0121",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.13,
+      "inferred": true,
+      "id": "N0121"
+    },
+    {
+      "name": "Inferred-N0122",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.761,
+      "inferred": true,
+      "id": "N0122"
+    },
+    {
+      "name": "Inferred-N0123",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.562,
+      "inferred": true,
+      "id": "N0123"
+    },
+    {
+      "name": "Inferred-N0124",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.435,
+      "inferred": true,
+      "id": "N0124"
+    },
+    {
+      "name": "Inferred-N0125",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.565,
+      "inferred": true,
+      "id": "N0125"
+    },
+    {
+      "name": "Inferred-N0126",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.595,
+      "inferred": true,
+      "id": "N0126"
+    },
+    {
+      "name": "Inferred-N0127",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.34,
+      "inferred": true,
+      "id": "N0127"
+    },
+    {
+      "name": "Inferred-N0128",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.165,
+      "inferred": true,
+      "id": "N0128"
+    },
+    {
+      "name": "Inferred-N0129",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.587,
+      "inferred": true,
+      "id": "N0129"
+    },
+    {
+      "name": "Inferred-N0130",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.706,
+      "inferred": true,
+      "id": "N0130"
+    },
+    {
+      "name": "Inferred-N0131",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.372,
+      "inferred": true,
+      "id": "N0131"
+    },
+    {
+      "name": "Inferred-N0132",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.479,
+      "inferred": true,
+      "id": "N0132"
+    },
+    {
+      "name": "Inferred-N0133",
+      "country": "USA",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.118,
+      "inferred": true,
+      "id": "N0133"
+    },
+    {
+      "name": "Inferred-N0134",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.495,
+      "inferred": true,
+      "id": "N0134"
+    },
+    {
+      "name": "Inferred-N0135",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.233,
+      "inferred": true,
+      "id": "N0135"
+    },
+    {
+      "name": "Inferred-N0136",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.755,
+      "inferred": true,
+      "id": "N0136"
+    },
+    {
+      "name": "Inferred-N0137",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.807,
+      "inferred": true,
+      "id": "N0137"
+    },
+    {
+      "name": "Inferred-N0138",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.221,
+      "inferred": true,
+      "id": "N0138"
+    },
+    {
+      "name": "Inferred-N0139",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.217,
+      "inferred": true,
+      "id": "N0139"
+    },
+    {
+      "name": "Inferred-N0140",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.862,
+      "inferred": true,
+      "id": "N0140"
+    },
+    {
+      "name": "Inferred-N0141",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.419,
+      "inferred": true,
+      "id": "N0141"
+    },
+    {
+      "name": "Inferred-N0142",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.252,
+      "inferred": true,
+      "id": "N0142"
+    },
+    {
+      "name": "Inferred-N0143",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.1,
+      "inferred": true,
+      "id": "N0143"
+    },
+    {
+      "name": "Inferred-N0144",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.799,
+      "inferred": true,
+      "id": "N0144"
+    },
+    {
+      "name": "Inferred-N0145",
+      "country": "Vietnam",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.391,
+      "inferred": true,
+      "id": "N0145"
+    },
+    {
+      "name": "Inferred-N0146",
+      "country": "Vietnam",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.484,
+      "inferred": true,
+      "id": "N0146"
+    },
+    {
+      "name": "Inferred-N0147",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.118,
+      "inferred": true,
+      "id": "N0147"
+    },
+    {
+      "name": "Inferred-N0148",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.883,
+      "inferred": true,
+      "id": "N0148"
+    },
+    {
+      "name": "Inferred-N0149",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.385,
+      "inferred": true,
+      "id": "N0149"
+    },
+    {
+      "name": "Inferred-N0150",
+      "country": "Japan",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.609,
+      "inferred": true,
+      "id": "N0150"
+    },
+    {
+      "name": "Inferred-N0151",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.692,
+      "inferred": true,
+      "id": "N0151"
+    },
+    {
+      "name": "Inferred-N0152",
+      "country": "Vietnam",
+      "industry": "Semiconductors",
+      "tier": 2,
+      "criticality_score": 0.732,
+      "inferred": true,
+      "id": "N0152"
+    },
+    {
+      "name": "Inferred-N0153",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.164,
+      "inferred": true,
+      "id": "N0153"
+    },
+    {
+      "name": "Inferred-N0154",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.263,
+      "inferred": true,
+      "id": "N0154"
+    },
+    {
+      "name": "Inferred-N0155",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.768,
+      "inferred": true,
+      "id": "N0155"
+    },
+    {
+      "name": "Inferred-N0156",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.482,
+      "inferred": true,
+      "id": "N0156"
+    },
+    {
+      "name": "Inferred-N0157",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.421,
+      "inferred": true,
+      "id": "N0157"
+    },
+    {
+      "name": "Inferred-N0158",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.894,
+      "inferred": true,
+      "id": "N0158"
+    },
+    {
+      "name": "Inferred-N0159",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.626,
+      "inferred": true,
+      "id": "N0159"
+    },
+    {
+      "name": "Inferred-N0160",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.521,
+      "inferred": true,
+      "id": "N0160"
+    },
+    {
+      "name": "Inferred-N0161",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.334,
+      "inferred": true,
+      "id": "N0161"
+    },
+    {
+      "name": "Inferred-N0162",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.535,
+      "inferred": true,
+      "id": "N0162"
+    },
+    {
+      "name": "Inferred-N0163",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.519,
+      "inferred": true,
+      "id": "N0163"
+    },
+    {
+      "name": "Inferred-N0164",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.238,
+      "inferred": true,
+      "id": "N0164"
+    },
+    {
+      "name": "Inferred-N0165",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.515,
+      "inferred": true,
+      "id": "N0165"
+    },
+    {
+      "name": "Inferred-N0166",
+      "country": "Brazil",
+      "industry": "Electronics",
+      "tier": 2,
+      "criticality_score": 0.807,
+      "inferred": true,
+      "id": "N0166"
+    },
+    {
+      "name": "Inferred-N0167",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.462,
+      "inferred": true,
+      "id": "N0167"
+    },
+    {
+      "name": "Inferred-N0168",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.654,
+      "inferred": true,
+      "id": "N0168"
+    },
+    {
+      "name": "Inferred-N0169",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.506,
+      "inferred": true,
+      "id": "N0169"
+    },
+    {
+      "name": "Inferred-N0170",
+      "country": "Japan",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.433,
+      "inferred": true,
+      "id": "N0170"
+    },
+    {
+      "name": "Inferred-N0171",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.293,
+      "inferred": true,
+      "id": "N0171"
+    },
+    {
+      "name": "Inferred-N0172",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.302,
+      "inferred": true,
+      "id": "N0172"
+    },
+    {
+      "name": "Inferred-N0173",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.419,
+      "inferred": true,
+      "id": "N0173"
+    },
+    {
+      "name": "Inferred-N0174",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.371,
+      "inferred": true,
+      "id": "N0174"
+    },
+    {
+      "name": "Inferred-N0175",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.116,
+      "inferred": true,
+      "id": "N0175"
+    },
+    {
+      "name": "Inferred-N0176",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.51,
+      "inferred": true,
+      "id": "N0176"
+    },
+    {
+      "name": "Inferred-N0177",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.877,
+      "inferred": true,
+      "id": "N0177"
+    },
+    {
+      "name": "Inferred-N0178",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.705,
+      "inferred": true,
+      "id": "N0178"
+    },
+    {
+      "name": "Inferred-N0179",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.172,
+      "inferred": true,
+      "id": "N0179"
+    },
+    {
+      "name": "Inferred-N0180",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.816,
+      "inferred": true,
+      "id": "N0180"
+    },
+    {
+      "name": "Inferred-N0181",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.587,
+      "inferred": true,
+      "id": "N0181"
+    },
+    {
+      "name": "Inferred-N0182",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.463,
+      "inferred": true,
+      "id": "N0182"
+    },
+    {
+      "name": "Inferred-N0183",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.522,
+      "inferred": true,
+      "id": "N0183"
+    },
+    {
+      "name": "Inferred-N0184",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.261,
+      "inferred": true,
+      "id": "N0184"
+    },
+    {
+      "name": "Inferred-N0185",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.378,
+      "inferred": true,
+      "id": "N0185"
+    },
+    {
+      "name": "Inferred-N0186",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.297,
+      "inferred": true,
+      "id": "N0186"
+    },
+    {
+      "name": "Inferred-N0187",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.346,
+      "inferred": true,
+      "id": "N0187"
+    },
+    {
+      "name": "Inferred-N0188",
+      "country": "Netherlands",
+      "industry": "Semiconductors",
+      "tier": 2,
+      "criticality_score": 0.766,
+      "inferred": true,
+      "id": "N0188"
+    },
+    {
+      "name": "Inferred-N0189",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.77,
+      "inferred": true,
+      "id": "N0189"
+    },
+    {
+      "name": "Inferred-N0190",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.445,
+      "inferred": true,
+      "id": "N0190"
+    },
+    {
+      "name": "Inferred-N0191",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.654,
+      "inferred": true,
+      "id": "N0191"
+    },
+    {
+      "name": "Inferred-N0192",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.457,
+      "inferred": true,
+      "id": "N0192"
+    },
+    {
+      "name": "Inferred-N0193",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.873,
+      "inferred": true,
+      "id": "N0193"
+    },
+    {
+      "name": "Inferred-N0194",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.48,
+      "inferred": true,
+      "id": "N0194"
+    },
+    {
+      "name": "Inferred-N0195",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.173,
+      "inferred": true,
+      "id": "N0195"
+    },
+    {
+      "name": "Inferred-N0196",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.34,
+      "inferred": true,
+      "id": "N0196"
+    },
+    {
+      "name": "Inferred-N0197",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.626,
+      "inferred": true,
+      "id": "N0197"
+    },
+    {
+      "name": "Inferred-N0198",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.22,
+      "inferred": true,
+      "id": "N0198"
+    },
+    {
+      "name": "Inferred-N0199",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.76,
+      "inferred": true,
+      "id": "N0199"
+    },
+    {
+      "name": "Inferred-N0200",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.761,
+      "inferred": true,
+      "id": "N0200"
+    },
+    {
+      "name": "Inferred-N0201",
+      "country": "South Korea",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.206,
+      "inferred": true,
+      "id": "N0201"
+    },
+    {
+      "name": "Inferred-N0202",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.525,
+      "inferred": true,
+      "id": "N0202"
+    },
+    {
+      "name": "Inferred-N0203",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.627,
+      "inferred": true,
+      "id": "N0203"
+    },
+    {
+      "name": "Inferred-N0204",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.288,
+      "inferred": true,
+      "id": "N0204"
+    },
+    {
+      "name": "Inferred-N0205",
+      "country": "Mexico",
+      "industry": "Electronics",
+      "tier": 2,
+      "criticality_score": 0.483,
+      "inferred": true,
+      "id": "N0205"
+    },
+    {
+      "name": "Inferred-N0206",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.606,
+      "inferred": true,
+      "id": "N0206"
+    },
+    {
+      "name": "Inferred-N0207",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.11,
+      "inferred": true,
+      "id": "N0207"
+    },
+    {
+      "name": "Inferred-N0208",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.654,
+      "inferred": true,
+      "id": "N0208"
+    },
+    {
+      "name": "Inferred-N0209",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.473,
+      "inferred": true,
+      "id": "N0209"
+    },
+    {
+      "name": "Inferred-N0210",
+      "country": "Mexico",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.349,
+      "inferred": true,
+      "id": "N0210"
+    },
+    {
+      "name": "Inferred-N0211",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.895,
+      "inferred": true,
+      "id": "N0211"
+    },
+    {
+      "name": "Inferred-N0212",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.698,
+      "inferred": true,
+      "id": "N0212"
+    },
+    {
+      "name": "Inferred-N0213",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.392,
+      "inferred": true,
+      "id": "N0213"
+    },
+    {
+      "name": "Inferred-N0214",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.86,
+      "inferred": true,
+      "id": "N0214"
+    },
+    {
+      "name": "Inferred-N0215",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.197,
+      "inferred": true,
+      "id": "N0215"
+    },
+    {
+      "name": "Inferred-N0216",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.771,
+      "inferred": true,
+      "id": "N0216"
+    },
+    {
+      "name": "Inferred-N0217",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.414,
+      "inferred": true,
+      "id": "N0217"
+    },
+    {
+      "name": "Inferred-N0218",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.84,
+      "inferred": true,
+      "id": "N0218"
+    },
+    {
+      "name": "Inferred-N0219",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.608,
+      "inferred": true,
+      "id": "N0219"
+    },
+    {
+      "name": "Inferred-N0220",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.719,
+      "inferred": true,
+      "id": "N0220"
+    },
+    {
+      "name": "Inferred-N0221",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.75,
+      "inferred": true,
+      "id": "N0221"
+    },
+    {
+      "name": "Inferred-N0222",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.847,
+      "inferred": true,
+      "id": "N0222"
+    },
+    {
+      "name": "Inferred-N0223",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.139,
+      "inferred": true,
+      "id": "N0223"
+    },
+    {
+      "name": "Inferred-N0224",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.432,
+      "inferred": true,
+      "id": "N0224"
+    },
+    {
+      "name": "Inferred-N0225",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.487,
+      "inferred": true,
+      "id": "N0225"
+    },
+    {
+      "name": "Inferred-N0226",
+      "country": "USA",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.462,
+      "inferred": true,
+      "id": "N0226"
+    },
+    {
+      "name": "Inferred-N0227",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.212,
+      "inferred": true,
+      "id": "N0227"
+    },
+    {
+      "name": "Inferred-N0228",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.291,
+      "inferred": true,
+      "id": "N0228"
+    },
+    {
+      "name": "Inferred-N0229",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.401,
+      "inferred": true,
+      "id": "N0229"
+    },
+    {
+      "name": "Inferred-N0230",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.559,
+      "inferred": true,
+      "id": "N0230"
+    },
+    {
+      "name": "Inferred-N0231",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.317,
+      "inferred": true,
+      "id": "N0231"
+    },
+    {
+      "name": "Inferred-N0232",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.202,
+      "inferred": true,
+      "id": "N0232"
+    },
+    {
+      "name": "Inferred-N0233",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.875,
+      "inferred": true,
+      "id": "N0233"
+    },
+    {
+      "name": "Inferred-N0234",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.299,
+      "inferred": true,
+      "id": "N0234"
+    },
+    {
+      "name": "Inferred-N0235",
+      "country": "Japan",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.853,
+      "inferred": true,
+      "id": "N0235"
+    },
+    {
+      "name": "Inferred-N0236",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.726,
+      "inferred": true,
+      "id": "N0236"
+    },
+    {
+      "name": "Inferred-N0237",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.523,
+      "inferred": true,
+      "id": "N0237"
+    },
+    {
+      "name": "Inferred-N0238",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.41,
+      "inferred": true,
+      "id": "N0238"
+    },
+    {
+      "name": "Inferred-N0239",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.53,
+      "inferred": true,
+      "id": "N0239"
+    },
+    {
+      "name": "Inferred-N0240",
+      "country": "South Korea",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.521,
+      "inferred": true,
+      "id": "N0240"
+    },
+    {
+      "name": "Inferred-N0241",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.117,
+      "inferred": true,
+      "id": "N0241"
+    },
+    {
+      "name": "Inferred-N0242",
+      "country": "South Korea",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.165,
+      "inferred": true,
+      "id": "N0242"
+    },
+    {
+      "name": "Inferred-N0243",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.657,
+      "inferred": true,
+      "id": "N0243"
+    },
+    {
+      "name": "Inferred-N0244",
+      "country": "Mexico",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.258,
+      "inferred": true,
+      "id": "N0244"
+    },
+    {
+      "name": "Inferred-N0245",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.876,
+      "inferred": true,
+      "id": "N0245"
+    },
+    {
+      "name": "Inferred-N0246",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.708,
+      "inferred": true,
+      "id": "N0246"
+    },
+    {
+      "name": "Inferred-N0247",
+      "country": "South Korea",
+      "industry": "Electronics",
+      "tier": 2,
+      "criticality_score": 0.488,
+      "inferred": true,
+      "id": "N0247"
+    },
+    {
+      "name": "Inferred-N0248",
+      "country": "South Korea",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.27,
+      "inferred": true,
+      "id": "N0248"
+    },
+    {
+      "name": "Inferred-N0249",
+      "country": "South Korea",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.668,
+      "inferred": true,
+      "id": "N0249"
+    },
+    {
+      "name": "Inferred-N0250",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.845,
+      "inferred": true,
+      "id": "N0250"
+    },
+    {
+      "name": "Inferred-N0251",
+      "country": "India",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.888,
+      "inferred": true,
+      "id": "N0251"
+    },
+    {
+      "name": "Inferred-N0252",
+      "country": "India",
+      "industry": "Semiconductors",
+      "tier": 2,
+      "criticality_score": 0.324,
+      "inferred": true,
+      "id": "N0252"
+    },
+    {
+      "name": "Inferred-N0253",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.385,
+      "inferred": true,
+      "id": "N0253"
+    },
+    {
+      "name": "Inferred-N0254",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.257,
+      "inferred": true,
+      "id": "N0254"
+    },
+    {
+      "name": "Inferred-N0255",
+      "country": "Mexico",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.605,
+      "inferred": true,
+      "id": "N0255"
+    },
+    {
+      "name": "Inferred-N0256",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.133,
+      "inferred": true,
+      "id": "N0256"
+    },
+    {
+      "name": "Inferred-N0257",
+      "country": "Mexico",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.39,
+      "inferred": true,
+      "id": "N0257"
+    },
+    {
+      "name": "Inferred-N0258",
+      "country": "China",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.338,
+      "inferred": true,
+      "id": "N0258"
+    },
+    {
+      "name": "Inferred-N0259",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.119,
+      "inferred": true,
+      "id": "N0259"
+    },
+    {
+      "name": "Inferred-N0260",
+      "country": "Vietnam",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.752,
+      "inferred": true,
+      "id": "N0260"
+    },
+    {
+      "name": "Inferred-N0261",
+      "country": "Vietnam",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.742,
+      "inferred": true,
+      "id": "N0261"
+    },
+    {
+      "name": "Inferred-N0262",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.389,
+      "inferred": true,
+      "id": "N0262"
+    },
+    {
+      "name": "Inferred-N0263",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.413,
+      "inferred": true,
+      "id": "N0263"
+    },
+    {
+      "name": "Inferred-N0264",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.884,
+      "inferred": true,
+      "id": "N0264"
+    },
+    {
+      "name": "Inferred-N0265",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.6,
+      "inferred": true,
+      "id": "N0265"
+    },
+    {
+      "name": "Inferred-N0266",
+      "country": "USA",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.469,
+      "inferred": true,
+      "id": "N0266"
+    },
+    {
+      "name": "Inferred-N0267",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.335,
+      "inferred": true,
+      "id": "N0267"
+    },
+    {
+      "name": "Inferred-N0268",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.296,
+      "inferred": true,
+      "id": "N0268"
+    },
+    {
+      "name": "Inferred-N0269",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.417,
+      "inferred": true,
+      "id": "N0269"
+    },
+    {
+      "name": "Inferred-N0270",
+      "country": "Japan",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.62,
+      "inferred": true,
+      "id": "N0270"
+    },
+    {
+      "name": "Inferred-N0271",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.806,
+      "inferred": true,
+      "id": "N0271"
+    },
+    {
+      "name": "Inferred-N0272",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.195,
+      "inferred": true,
+      "id": "N0272"
+    },
+    {
+      "name": "Inferred-N0273",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.844,
+      "inferred": true,
+      "id": "N0273"
+    },
+    {
+      "name": "Inferred-N0274",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.857,
+      "inferred": true,
+      "id": "N0274"
+    },
+    {
+      "name": "Inferred-N0275",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.38,
+      "inferred": true,
+      "id": "N0275"
+    },
+    {
+      "name": "Inferred-N0276",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.58,
+      "inferred": true,
+      "id": "N0276"
+    },
+    {
+      "name": "Inferred-N0277",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.755,
+      "inferred": true,
+      "id": "N0277"
+    },
+    {
+      "name": "Inferred-N0278",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.538,
+      "inferred": true,
+      "id": "N0278"
+    },
+    {
+      "name": "Inferred-N0279",
+      "country": "India",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.622,
+      "inferred": true,
+      "id": "N0279"
+    },
+    {
+      "name": "Inferred-N0280",
+      "country": "South Korea",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.696,
+      "inferred": true,
+      "id": "N0280"
+    },
+    {
+      "name": "Inferred-N0281",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.413,
+      "inferred": true,
+      "id": "N0281"
+    },
+    {
+      "name": "Inferred-N0282",
+      "country": "South Korea",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.821,
+      "inferred": true,
+      "id": "N0282"
+    },
+    {
+      "name": "Inferred-N0283",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.718,
+      "inferred": true,
+      "id": "N0283"
+    },
+    {
+      "name": "Inferred-N0284",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.613,
+      "inferred": true,
+      "id": "N0284"
+    },
+    {
+      "name": "Inferred-N0285",
+      "country": "South Korea",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.378,
+      "inferred": true,
+      "id": "N0285"
+    },
+    {
+      "name": "Inferred-N0286",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.703,
+      "inferred": true,
+      "id": "N0286"
+    },
+    {
+      "name": "Inferred-N0287",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.201,
+      "inferred": true,
+      "id": "N0287"
+    },
+    {
+      "name": "Inferred-N0288",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.169,
+      "inferred": true,
+      "id": "N0288"
+    },
+    {
+      "name": "Inferred-N0289",
+      "country": "China",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.552,
+      "inferred": true,
+      "id": "N0289"
+    },
+    {
+      "name": "Inferred-N0290",
+      "country": "China",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.407,
+      "inferred": true,
+      "id": "N0290"
+    },
+    {
+      "name": "Inferred-N0291",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.194,
+      "inferred": true,
+      "id": "N0291"
+    },
+    {
+      "name": "Inferred-N0292",
+      "country": "Brazil",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.566,
+      "inferred": true,
+      "id": "N0292"
+    },
+    {
+      "name": "Inferred-N0293",
+      "country": "Brazil",
+      "industry": "Agrifood",
+      "tier": 2,
+      "criticality_score": 0.503,
+      "inferred": true,
+      "id": "N0293"
+    },
+    {
+      "name": "Inferred-N0294",
+      "country": "Brazil",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.769,
+      "inferred": true,
+      "id": "N0294"
+    },
+    {
+      "name": "Inferred-N0295",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.203,
+      "inferred": true,
+      "id": "N0295"
+    },
+    {
+      "name": "Inferred-N0296",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.609,
+      "inferred": true,
+      "id": "N0296"
+    },
+    {
+      "name": "Inferred-N0297",
+      "country": "Vietnam",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.816,
+      "inferred": true,
+      "id": "N0297"
+    },
+    {
+      "name": "Inferred-N0298",
+      "country": "Vietnam",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.255,
+      "inferred": true,
+      "id": "N0298"
+    },
+    {
+      "name": "Inferred-N0299",
+      "country": "Japan",
+      "industry": "Electronics",
+      "tier": 2,
+      "criticality_score": 0.766,
+      "inferred": true,
+      "id": "N0299"
+    },
+    {
+      "name": "Inferred-N0300",
+      "country": "Japan",
+      "industry": "Chemicals",
+      "tier": 3,
+      "criticality_score": 0.215,
+      "inferred": true,
+      "id": "N0300"
+    },
+    {
+      "name": "Inferred-N0301",
+      "country": "Japan",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.574,
+      "inferred": true,
+      "id": "N0301"
+    },
+    {
+      "name": "Inferred-N0302",
+      "country": "South Korea",
+      "industry": "Electronics",
+      "tier": 2,
+      "criticality_score": 0.423,
+      "inferred": true,
+      "id": "N0302"
+    },
+    {
+      "name": "Inferred-N0303",
+      "country": "South Korea",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.734,
+      "inferred": true,
+      "id": "N0303"
+    },
+    {
+      "name": "Inferred-N0304",
+      "country": "South Korea",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.609,
+      "inferred": true,
+      "id": "N0304"
+    },
+    {
+      "name": "Inferred-N0305",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.894,
+      "inferred": true,
+      "id": "N0305"
+    },
+    {
+      "name": "Inferred-N0306",
+      "country": "China",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.388,
+      "inferred": true,
+      "id": "N0306"
+    },
+    {
+      "name": "Inferred-N0307",
+      "country": "China",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.592,
+      "inferred": true,
+      "id": "N0307"
+    },
+    {
+      "name": "Inferred-N0308",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.686,
+      "inferred": true,
+      "id": "N0308"
+    },
+    {
+      "name": "Inferred-N0309",
+      "country": "China",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.593,
+      "inferred": true,
+      "id": "N0309"
+    },
+    {
+      "name": "Inferred-N0310",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.622,
+      "inferred": true,
+      "id": "N0310"
+    },
+    {
+      "name": "Inferred-N0311",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.527,
+      "inferred": true,
+      "id": "N0311"
+    },
+    {
+      "name": "Inferred-N0312",
+      "country": "Brazil",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.227,
+      "inferred": true,
+      "id": "N0312"
+    },
+    {
+      "name": "Inferred-N0313",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.461,
+      "inferred": true,
+      "id": "N0313"
+    },
+    {
+      "name": "Inferred-N0314",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.145,
+      "inferred": true,
+      "id": "N0314"
+    },
+    {
+      "name": "Inferred-N0315",
+      "country": "Brazil",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.582,
+      "inferred": true,
+      "id": "N0315"
+    },
+    {
+      "name": "Inferred-N0316",
+      "country": "USA",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.149,
+      "inferred": true,
+      "id": "N0316"
+    },
+    {
+      "name": "Inferred-N0317",
+      "country": "USA",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.59,
+      "inferred": true,
+      "id": "N0317"
+    },
+    {
+      "name": "Inferred-N0318",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.507,
+      "inferred": true,
+      "id": "N0318"
+    },
+    {
+      "name": "Inferred-N0319",
+      "country": "Netherlands",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.672,
+      "inferred": true,
+      "id": "N0319"
+    },
+    {
+      "name": "Inferred-N0320",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.281,
+      "inferred": true,
+      "id": "N0320"
+    },
+    {
+      "name": "Inferred-N0321",
+      "country": "Netherlands",
+      "industry": "Logistics",
+      "tier": 3,
+      "criticality_score": 0.199,
+      "inferred": true,
+      "id": "N0321"
+    },
+    {
+      "name": "Inferred-N0322",
+      "country": "Germany",
+      "industry": "Chemicals",
+      "tier": 2,
+      "criticality_score": 0.609,
+      "inferred": true,
+      "id": "N0322"
+    },
+    {
+      "name": "Inferred-N0323",
+      "country": "China",
+      "industry": "Electronics",
+      "tier": 2,
+      "criticality_score": 0.804,
+      "inferred": true,
+      "id": "N0323"
+    },
+    {
+      "name": "Inferred-N0324",
+      "country": "China",
+      "industry": "Semiconductors",
+      "tier": 3,
+      "criticality_score": 0.697,
+      "inferred": true,
+      "id": "N0324"
+    },
+    {
+      "name": "Inferred-N0325",
+      "country": "Germany",
+      "industry": "Logistics",
+      "tier": 2,
+      "criticality_score": 0.826,
+      "inferred": true,
+      "id": "N0325"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 41.12,
+      "source": "N0000",
+      "target": "N0045"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 43.63,
+      "source": "N0000",
+      "target": "N0040"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.17,
+      "source": "N0001",
+      "target": "N0004"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.34,
+      "confidence": 0.79,
+      "source": "N0001",
+      "target": "N0325"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 43.29,
+      "source": "N0002",
+      "target": "N0043"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.36,
+      "source": "N0002",
+      "target": "N0036"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.25,
+      "confidence": 0.64,
+      "source": "N0002",
+      "target": "N0323"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 25.72,
+      "source": "N0003",
+      "target": "N0045"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.14,
+      "source": "N0003",
+      "target": "N0083"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 43.91,
+      "source": "N0004",
+      "target": "N0043"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 13.43,
+      "source": "N0004",
+      "target": "N0003"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 29.24,
+      "source": "N0004",
+      "target": "N0015"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.82,
+      "confidence": 0.79,
+      "source": "N0004",
+      "target": "N0322"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.03,
+      "source": "N0005",
+      "target": "N0004"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 17.61,
+      "source": "N0005",
+      "target": "N0014"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 49.22,
+      "source": "N0006",
+      "target": "N0056"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.22,
+      "source": "N0006",
+      "target": "N0078"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.73,
+      "confidence": 0.77,
+      "source": "N0006",
+      "target": "N0318"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.16,
+      "confidence": 0.85,
+      "source": "N0006",
+      "target": "N0319"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 35.58,
+      "source": "N0007",
+      "target": "N0025"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.58,
+      "source": "N0007",
+      "target": "N0033"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 46.32,
+      "source": "N0007",
+      "target": "N0005"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.35,
+      "confidence": 0.61,
+      "source": "N0007",
+      "target": "N0316"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 36.98,
+      "source": "N0008",
+      "target": "N0088"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 10.25,
+      "source": "N0008",
+      "target": "N0093"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.85,
+      "source": "N0008",
+      "target": "N0095"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.24,
+      "confidence": 0.83,
+      "source": "N0008",
+      "target": "N0312"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.73,
+      "confidence": 0.6,
+      "source": "N0008",
+      "target": "N0313"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 16.04,
+      "source": "N0009",
+      "target": "N0118"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.48,
+      "source": "N0009",
+      "target": "N0043"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 36.13,
+      "source": "N0009",
+      "target": "N0080"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.32,
+      "confidence": 0.55,
+      "source": "N0009",
+      "target": "N0310"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.51,
+      "source": "N0010",
+      "target": "N0065"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 16.65,
+      "source": "N0010",
+      "target": "N0040"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.67,
+      "confidence": 0.7,
+      "source": "N0010",
+      "target": "N0306"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.58,
+      "confidence": 0.65,
+      "source": "N0010",
+      "target": "N0307"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 10.0,
+      "source": "N0011",
+      "target": "N0038"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.41,
+      "source": "N0011",
+      "target": "N0071"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 19.27,
+      "source": "N0011",
+      "target": "N0017"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.33,
+      "confidence": 0.69,
+      "source": "N0011",
+      "target": "N0305"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 28.67,
+      "source": "N0012",
+      "target": "N0116"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 20.6,
+      "source": "N0012",
+      "target": "N0023"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 41.77,
+      "source": "N0012",
+      "target": "N0079"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.4,
+      "confidence": 0.65,
+      "source": "N0012",
+      "target": "N0302"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.78,
+      "source": "N0013",
+      "target": "N0037"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 29.21,
+      "source": "N0013",
+      "target": "N0027"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.14,
+      "confidence": 0.64,
+      "source": "N0013",
+      "target": "N0299"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.39,
+      "source": "N0014",
+      "target": "N0042"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 11.08,
+      "source": "N0014",
+      "target": "N0060"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.92,
+      "source": "N0014",
+      "target": "N0057"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 14.55,
+      "source": "N0015",
+      "target": "N0022"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.36,
+      "source": "N0015",
+      "target": "N0085"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 31.15,
+      "source": "N0015",
+      "target": "N0010"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 47.62,
+      "source": "N0016",
+      "target": "N0105"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.56,
+      "confidence": 0.82,
+      "source": "N0016",
+      "target": "N0297"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 15.87,
+      "source": "N0017",
+      "target": "N0087"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.91,
+      "confidence": 0.81,
+      "source": "N0017",
+      "target": "N0296"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.71,
+      "source": "N0018",
+      "target": "N0019"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.31,
+      "confidence": 0.78,
+      "source": "N0018",
+      "target": "N0292"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.87,
+      "confidence": 0.55,
+      "source": "N0018",
+      "target": "N0293"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.76,
+      "source": "N0019",
+      "target": "N0061"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.04,
+      "confidence": 0.74,
+      "source": "N0019",
+      "target": "N0291"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.01,
+      "source": "N0020",
+      "target": "N0059"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.51,
+      "confidence": 0.88,
+      "source": "N0020",
+      "target": "N0289"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.32,
+      "confidence": 0.64,
+      "source": "N0020",
+      "target": "N0290"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.97,
+      "source": "N0021",
+      "target": "N0074"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 24.97,
+      "source": "N0021",
+      "target": "N0025"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 12.58,
+      "source": "N0021",
+      "target": "N0092"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 37.67,
+      "source": "N0022",
+      "target": "N0089"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.62,
+      "source": "N0022",
+      "target": "N0000"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.78,
+      "source": "N0022",
+      "target": "N0115"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 40.3,
+      "source": "N0023",
+      "target": "N0029"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.95,
+      "source": "N0023",
+      "target": "N0022"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 12.84,
+      "source": "N0024",
+      "target": "N0006"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.49,
+      "source": "N0024",
+      "target": "N0072"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.5,
+      "source": "N0025",
+      "target": "N0017"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 26.79,
+      "source": "N0025",
+      "target": "N0103"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.94,
+      "confidence": 0.83,
+      "source": "N0025",
+      "target": "N0286"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.44,
+      "confidence": 0.89,
+      "source": "N0025",
+      "target": "N0287"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 44.63,
+      "source": "N0026",
+      "target": "N0077"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.83,
+      "source": "N0026",
+      "target": "N0041"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 36.1,
+      "source": "N0026",
+      "target": "N0097"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.39,
+      "confidence": 0.57,
+      "source": "N0026",
+      "target": "N0283"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.11,
+      "confidence": 0.58,
+      "source": "N0026",
+      "target": "N0284"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 27.62,
+      "source": "N0027",
+      "target": "N0055"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 44.91,
+      "source": "N0027",
+      "target": "N0107"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 37.31,
+      "source": "N0027",
+      "target": "N0117"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.85,
+      "confidence": 0.69,
+      "source": "N0027",
+      "target": "N0280"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 37.71,
+      "source": "N0028",
+      "target": "N0058"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.07,
+      "source": "N0028",
+      "target": "N0034"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 26.3,
+      "source": "N0029",
+      "target": "N0099"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 31.52,
+      "source": "N0029",
+      "target": "N0100"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 35.82,
+      "source": "N0030",
+      "target": "N0057"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 12.11,
+      "source": "N0030",
+      "target": "N0009"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.73,
+      "confidence": 0.59,
+      "source": "N0030",
+      "target": "N0278"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 27.24,
+      "source": "N0031",
+      "target": "N0041"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.35,
+      "source": "N0031",
+      "target": "N0115"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.15,
+      "confidence": 0.76,
+      "source": "N0031",
+      "target": "N0274"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.47,
+      "confidence": 0.67,
+      "source": "N0031",
+      "target": "N0275"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.85,
+      "source": "N0032",
+      "target": "N0050"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.39,
+      "confidence": 0.71,
+      "source": "N0032",
+      "target": "N0271"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 20.68,
+      "source": "N0033",
+      "target": "N0027"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 27.36,
+      "source": "N0033",
+      "target": "N0008"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.08,
+      "source": "N0033",
+      "target": "N0054"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.62,
+      "confidence": 0.86,
+      "source": "N0033",
+      "target": "N0268"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.3,
+      "source": "N0034",
+      "target": "N0107"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 44.09,
+      "source": "N0035",
+      "target": "N0090"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 29.0,
+      "source": "N0035",
+      "target": "N0002"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 24.11,
+      "source": "N0035",
+      "target": "N0110"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.92,
+      "confidence": 0.63,
+      "source": "N0035",
+      "target": "N0266"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 19.8,
+      "source": "N0036",
+      "target": "N0039"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 44.64,
+      "source": "N0036",
+      "target": "N0097"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 36.86,
+      "source": "N0037",
+      "target": "N0069"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 40.09,
+      "source": "N0037",
+      "target": "N0096"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 11.36,
+      "source": "N0038",
+      "target": "N0063"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.84,
+      "confidence": 0.58,
+      "source": "N0038",
+      "target": "N0262"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.68,
+      "confidence": 0.69,
+      "source": "N0038",
+      "target": "N0263"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 19.75,
+      "source": "N0039",
+      "target": "N0063"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.61,
+      "source": "N0039",
+      "target": "N0003"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.41,
+      "confidence": 0.72,
+      "source": "N0039",
+      "target": "N0260"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.41,
+      "confidence": 0.84,
+      "source": "N0039",
+      "target": "N0261"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.11,
+      "source": "N0040",
+      "target": "N0093"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 46.02,
+      "source": "N0040",
+      "target": "N0021"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.24,
+      "confidence": 0.76,
+      "source": "N0040",
+      "target": "N0258"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.42,
+      "confidence": 0.72,
+      "source": "N0040",
+      "target": "N0259"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 20.0,
+      "source": "N0041",
+      "target": "N0069"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 28.44,
+      "source": "N0041",
+      "target": "N0003"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.84,
+      "source": "N0041",
+      "target": "N0117"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.56,
+      "confidence": 0.77,
+      "source": "N0041",
+      "target": "N0255"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.45,
+      "confidence": 0.57,
+      "source": "N0041",
+      "target": "N0256"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.35,
+      "source": "N0042",
+      "target": "N0055"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.99,
+      "source": "N0042",
+      "target": "N0017"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 19.27,
+      "source": "N0042",
+      "target": "N0111"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.48,
+      "confidence": 0.59,
+      "source": "N0042",
+      "target": "N0251"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.58,
+      "confidence": 0.88,
+      "source": "N0042",
+      "target": "N0252"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 16.68,
+      "source": "N0043",
+      "target": "N0059"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 47.58,
+      "source": "N0044",
+      "target": "N0035"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.37,
+      "source": "N0044",
+      "target": "N0097"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.36,
+      "confidence": 0.61,
+      "source": "N0044",
+      "target": "N0250"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.46,
+      "source": "N0045",
+      "target": "N0061"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 32.68,
+      "source": "N0046",
+      "target": "N0006"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 39.17,
+      "source": "N0046",
+      "target": "N0044"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 32.76,
+      "source": "N0046",
+      "target": "N0028"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.11,
+      "confidence": 0.57,
+      "source": "N0046",
+      "target": "N0247"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 10.37,
+      "source": "N0047",
+      "target": "N0031"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.21,
+      "confidence": 0.68,
+      "source": "N0047",
+      "target": "N0243"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.99,
+      "confidence": 0.81,
+      "source": "N0047",
+      "target": "N0244"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.04,
+      "source": "N0048",
+      "target": "N0080"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.52,
+      "confidence": 0.56,
+      "source": "N0048",
+      "target": "N0240"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.64,
+      "source": "N0049",
+      "target": "N0061"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.43,
+      "confidence": 0.82,
+      "source": "N0049",
+      "target": "N0237"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 13.18,
+      "source": "N0050",
+      "target": "N0027"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 18.76,
+      "source": "N0050",
+      "target": "N0060"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.49,
+      "source": "N0050",
+      "target": "N0090"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 41.06,
+      "source": "N0051",
+      "target": "N0092"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.25,
+      "source": "N0051",
+      "target": "N0014"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.85,
+      "source": "N0051",
+      "target": "N0100"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.18,
+      "confidence": 0.6,
+      "source": "N0051",
+      "target": "N0234"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.25,
+      "confidence": 0.78,
+      "source": "N0051",
+      "target": "N0235"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 15.94,
+      "source": "N0052",
+      "target": "N0119"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 47.1,
+      "source": "N0053",
+      "target": "N0117"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 10.32,
+      "source": "N0053",
+      "target": "N0048"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 29.81,
+      "source": "N0053",
+      "target": "N0050"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.74,
+      "source": "N0054",
+      "target": "N0031"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.59,
+      "source": "N0054",
+      "target": "N0013"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.22,
+      "source": "N0054",
+      "target": "N0090"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.45,
+      "confidence": 0.57,
+      "source": "N0054",
+      "target": "N0229"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.67,
+      "confidence": 0.79,
+      "source": "N0054",
+      "target": "N0230"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 49.2,
+      "source": "N0055",
+      "target": "N0102"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 26.87,
+      "source": "N0056",
+      "target": "N0044"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.4,
+      "confidence": 0.82,
+      "source": "N0056",
+      "target": "N0226"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.0,
+      "confidence": 0.58,
+      "source": "N0056",
+      "target": "N0227"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 32.55,
+      "source": "N0057",
+      "target": "N0047"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.13,
+      "source": "N0057",
+      "target": "N0008"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.29,
+      "source": "N0057",
+      "target": "N0065"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.72,
+      "confidence": 0.59,
+      "source": "N0057",
+      "target": "N0225"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.06,
+      "source": "N0058",
+      "target": "N0013"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 31.96,
+      "source": "N0058",
+      "target": "N0055"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.06,
+      "source": "N0059",
+      "target": "N0091"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 36.82,
+      "source": "N0059",
+      "target": "N0019"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 46.02,
+      "source": "N0060",
+      "target": "N0034"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.84,
+      "source": "N0060",
+      "target": "N0079"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.51,
+      "source": "N0060",
+      "target": "N0104"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.17,
+      "confidence": 0.77,
+      "source": "N0060",
+      "target": "N0222"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.66,
+      "source": "N0061",
+      "target": "N0076"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 41.62,
+      "source": "N0061",
+      "target": "N0034"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.79,
+      "source": "N0061",
+      "target": "N0041"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.5,
+      "source": "N0062",
+      "target": "N0031"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.71,
+      "source": "N0062",
+      "target": "N0097"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.99,
+      "confidence": 0.76,
+      "source": "N0062",
+      "target": "N0217"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.58,
+      "confidence": 0.85,
+      "source": "N0062",
+      "target": "N0218"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 24.97,
+      "source": "N0063",
+      "target": "N0043"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 16.59,
+      "source": "N0063",
+      "target": "N0003"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.38,
+      "confidence": 0.66,
+      "source": "N0063",
+      "target": "N0215"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.29,
+      "confidence": 0.87,
+      "source": "N0063",
+      "target": "N0216"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 39.99,
+      "source": "N0064",
+      "target": "N0027"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 17.35,
+      "source": "N0064",
+      "target": "N0045"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 28.01,
+      "source": "N0065",
+      "target": "N0090"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 26.07,
+      "source": "N0065",
+      "target": "N0113"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.96,
+      "source": "N0065",
+      "target": "N0035"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.03,
+      "confidence": 0.86,
+      "source": "N0065",
+      "target": "N0213"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 20.62,
+      "source": "N0066",
+      "target": "N0093"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 24.07,
+      "source": "N0067",
+      "target": "N0098"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 35.74,
+      "source": "N0067",
+      "target": "N0030"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.68,
+      "source": "N0067",
+      "target": "N0089"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.69,
+      "confidence": 0.68,
+      "source": "N0067",
+      "target": "N0212"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 15.06,
+      "source": "N0068",
+      "target": "N0011"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.93,
+      "confidence": 0.87,
+      "source": "N0068",
+      "target": "N0211"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 15.66,
+      "source": "N0069",
+      "target": "N0089"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 29.29,
+      "source": "N0069",
+      "target": "N0031"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.87,
+      "confidence": 0.82,
+      "source": "N0069",
+      "target": "N0205"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.06,
+      "confidence": 0.76,
+      "source": "N0069",
+      "target": "N0206"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 17.52,
+      "source": "N0070",
+      "target": "N0071"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 49.83,
+      "source": "N0070",
+      "target": "N0067"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.59,
+      "confidence": 0.63,
+      "source": "N0070",
+      "target": "N0204"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.96,
+      "source": "N0071",
+      "target": "N0042"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 15.68,
+      "source": "N0071",
+      "target": "N0045"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 11.91,
+      "source": "N0071",
+      "target": "N0090"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.52,
+      "confidence": 0.64,
+      "source": "N0071",
+      "target": "N0202"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 37.27,
+      "source": "N0072",
+      "target": "N0024"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 47.57,
+      "source": "N0072",
+      "target": "N0040"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.66,
+      "source": "N0072",
+      "target": "N0015"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.67,
+      "confidence": 0.59,
+      "source": "N0072",
+      "target": "N0201"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 37.06,
+      "source": "N0073",
+      "target": "N0027"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.84,
+      "source": "N0074",
+      "target": "N0093"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 26.47,
+      "source": "N0074",
+      "target": "N0076"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 10.11,
+      "source": "N0075",
+      "target": "N0012"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 11.76,
+      "source": "N0075",
+      "target": "N0107"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.33,
+      "confidence": 0.58,
+      "source": "N0075",
+      "target": "N0196"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.19,
+      "confidence": 0.86,
+      "source": "N0075",
+      "target": "N0197"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.2,
+      "source": "N0076",
+      "target": "N0038"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.16,
+      "confidence": 0.67,
+      "source": "N0076",
+      "target": "N0193"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.73,
+      "source": "N0077",
+      "target": "N0016"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 27.89,
+      "source": "N0077",
+      "target": "N0035"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 35.02,
+      "source": "N0077",
+      "target": "N0005"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 43.49,
+      "source": "N0078",
+      "target": "N0082"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.23,
+      "confidence": 0.63,
+      "source": "N0078",
+      "target": "N0187"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.1,
+      "confidence": 0.77,
+      "source": "N0078",
+      "target": "N0188"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.11,
+      "source": "N0079",
+      "target": "N0013"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 14.57,
+      "source": "N0079",
+      "target": "N0112"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.63,
+      "source": "N0080",
+      "target": "N0056"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.04,
+      "source": "N0080",
+      "target": "N0043"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.73,
+      "source": "N0081",
+      "target": "N0014"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 24.84,
+      "source": "N0081",
+      "target": "N0106"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.28,
+      "confidence": 0.64,
+      "source": "N0081",
+      "target": "N0185"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.01,
+      "source": "N0082",
+      "target": "N0080"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 40.65,
+      "source": "N0082",
+      "target": "N0088"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 47.48,
+      "source": "N0082",
+      "target": "N0006"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.36,
+      "source": "N0083",
+      "target": "N0031"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.46,
+      "confidence": 0.59,
+      "source": "N0083",
+      "target": "N0183"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 39.64,
+      "source": "N0084",
+      "target": "N0077"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 11.67,
+      "source": "N0084",
+      "target": "N0076"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.67,
+      "confidence": 0.79,
+      "source": "N0084",
+      "target": "N0179"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.76,
+      "confidence": 0.56,
+      "source": "N0084",
+      "target": "N0180"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.41,
+      "source": "N0085",
+      "target": "N0048"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 43.08,
+      "source": "N0085",
+      "target": "N0057"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 49.51,
+      "source": "N0085",
+      "target": "N0117"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.48,
+      "source": "N0086",
+      "target": "N0072"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.03,
+      "source": "N0086",
+      "target": "N0079"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.74,
+      "confidence": 0.89,
+      "source": "N0086",
+      "target": "N0176"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.14,
+      "confidence": 0.64,
+      "source": "N0086",
+      "target": "N0177"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 10.79,
+      "source": "N0087",
+      "target": "N0098"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.46,
+      "confidence": 0.71,
+      "source": "N0087",
+      "target": "N0172"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.92,
+      "confidence": 0.9,
+      "source": "N0087",
+      "target": "N0173"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.19,
+      "source": "N0088",
+      "target": "N0033"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.98,
+      "confidence": 0.66,
+      "source": "N0088",
+      "target": "N0170"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.82,
+      "confidence": 0.78,
+      "source": "N0088",
+      "target": "N0171"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.1,
+      "source": "N0089",
+      "target": "N0030"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.63,
+      "source": "N0090",
+      "target": "N0020"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.76,
+      "source": "N0091",
+      "target": "N0088"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.12,
+      "source": "N0091",
+      "target": "N0076"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 35.3,
+      "source": "N0092",
+      "target": "N0090"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.97,
+      "source": "N0092",
+      "target": "N0036"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 39.5,
+      "source": "N0093",
+      "target": "N0029"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 31.44,
+      "source": "N0093",
+      "target": "N0119"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 33.23,
+      "source": "N0093",
+      "target": "N0033"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.6,
+      "confidence": 0.82,
+      "source": "N0093",
+      "target": "N0165"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.66,
+      "confidence": 0.62,
+      "source": "N0093",
+      "target": "N0166"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.18,
+      "source": "N0094",
+      "target": "N0054"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.29,
+      "confidence": 0.7,
+      "source": "N0094",
+      "target": "N0163"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.87,
+      "source": "N0095",
+      "target": "N0082"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.03,
+      "source": "N0096",
+      "target": "N0106"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.71,
+      "source": "N0096",
+      "target": "N0018"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 41.3,
+      "source": "N0097",
+      "target": "N0076"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 46.1,
+      "source": "N0097",
+      "target": "N0095"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.48,
+      "confidence": 0.76,
+      "source": "N0097",
+      "target": "N0161"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.36,
+      "confidence": 0.57,
+      "source": "N0097",
+      "target": "N0162"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.59,
+      "source": "N0098",
+      "target": "N0015"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 35.14,
+      "source": "N0098",
+      "target": "N0059"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 24.94,
+      "source": "N0099",
+      "target": "N0064"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.48,
+      "source": "N0099",
+      "target": "N0069"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 21.89,
+      "source": "N0100",
+      "target": "N0114"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.47,
+      "confidence": 0.8,
+      "source": "N0100",
+      "target": "N0157"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.37,
+      "confidence": 0.76,
+      "source": "N0100",
+      "target": "N0158"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.78,
+      "source": "N0101",
+      "target": "N0077"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 11.83,
+      "source": "N0101",
+      "target": "N0032"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.11,
+      "confidence": 0.71,
+      "source": "N0101",
+      "target": "N0153"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.28,
+      "confidence": 0.87,
+      "source": "N0101",
+      "target": "N0154"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 29.56,
+      "source": "N0102",
+      "target": "N0108"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.53,
+      "source": "N0102",
+      "target": "N0111"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.36,
+      "source": "N0102",
+      "target": "N0073"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.78,
+      "confidence": 0.62,
+      "source": "N0102",
+      "target": "N0152"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.27,
+      "source": "N0103",
+      "target": "N0073"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.17,
+      "source": "N0103",
+      "target": "N0005"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.31,
+      "confidence": 0.74,
+      "source": "N0103",
+      "target": "N0149"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.17,
+      "confidence": 0.83,
+      "source": "N0103",
+      "target": "N0150"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 14.27,
+      "source": "N0104",
+      "target": "N0083"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 49.85,
+      "source": "N0104",
+      "target": "N0056"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.08,
+      "source": "N0104",
+      "target": "N0118"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.51,
+      "confidence": 0.73,
+      "source": "N0104",
+      "target": "N0147"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 17.72,
+      "source": "N0105",
+      "target": "N0011"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 17.0,
+      "source": "N0105",
+      "target": "N0060"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.32,
+      "confidence": 0.85,
+      "source": "N0105",
+      "target": "N0145"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.19,
+      "confidence": 0.6,
+      "source": "N0105",
+      "target": "N0146"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 16.83,
+      "source": "N0106",
+      "target": "N0013"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 34.84,
+      "source": "N0106",
+      "target": "N0110"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 14.77,
+      "source": "N0106",
+      "target": "N0020"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.13,
+      "confidence": 0.77,
+      "source": "N0106",
+      "target": "N0141"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.85,
+      "confidence": 0.7,
+      "source": "N0106",
+      "target": "N0142"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 27.73,
+      "source": "N0107",
+      "target": "N0104"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.01,
+      "source": "N0107",
+      "target": "N0097"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.24,
+      "source": "N0108",
+      "target": "N0032"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.74,
+      "source": "N0108",
+      "target": "N0041"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 43.53,
+      "source": "N0109",
+      "target": "N0105"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.37,
+      "source": "N0109",
+      "target": "N0000"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.18,
+      "source": "N0109",
+      "target": "N0084"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.58,
+      "confidence": 0.6,
+      "source": "N0109",
+      "target": "N0137"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.62,
+      "confidence": 0.55,
+      "source": "N0109",
+      "target": "N0138"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 25.18,
+      "source": "N0110",
+      "target": "N0046"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.38,
+      "source": "N0110",
+      "target": "N0079"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.05,
+      "source": "N0110",
+      "target": "N0096"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.67,
+      "confidence": 0.61,
+      "source": "N0110",
+      "target": "N0133"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.26,
+      "confidence": 0.65,
+      "source": "N0110",
+      "target": "N0134"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 46.42,
+      "source": "N0111",
+      "target": "N0070"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 22.19,
+      "source": "N0111",
+      "target": "N0016"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 48.67,
+      "source": "N0112",
+      "target": "N0062"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.64,
+      "source": "N0112",
+      "target": "N0015"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 12.35,
+      "source": "N0112",
+      "target": "N0003"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 27.77,
+      "source": "N0113",
+      "target": "N0039"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 49.62,
+      "source": "N0114",
+      "target": "N0052"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 45.69,
+      "source": "N0114",
+      "target": "N0011"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.34,
+      "source": "N0114",
+      "target": "N0028"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.68,
+      "confidence": 0.57,
+      "source": "N0114",
+      "target": "N0132"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 41.69,
+      "source": "N0115",
+      "target": "N0082"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 25.69,
+      "source": "N0116",
+      "target": "N0091"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 14.03,
+      "source": "N0116",
+      "target": "N0037"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.96,
+      "confidence": 0.79,
+      "source": "N0116",
+      "target": "N0127"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.07,
+      "confidence": 0.72,
+      "source": "N0116",
+      "target": "N0128"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 23.11,
+      "source": "N0117",
+      "target": "N0060"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.66,
+      "source": "N0117",
+      "target": "N0031"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.01,
+      "confidence": 0.74,
+      "source": "N0117",
+      "target": "N0126"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 30.17,
+      "source": "N0118",
+      "target": "N0117"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.33,
+      "confidence": 0.63,
+      "source": "N0118",
+      "target": "N0122"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.03,
+      "confidence": 0.89,
+      "source": "N0118",
+      "target": "N0123"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.96,
+      "source": "N0119",
+      "target": "N0112"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 38.75,
+      "source": "N0119",
+      "target": "N0017"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 42.79,
+      "source": "N0119",
+      "target": "N0110"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.82,
+      "confidence": 0.74,
+      "source": "N0119",
+      "target": "N0120"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.39,
+      "confidence": 0.57,
+      "source": "N0120",
+      "target": "N0121"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.43,
+      "confidence": 0.68,
+      "source": "N0122",
+      "target": "N0125"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.45,
+      "confidence": 0.75,
+      "source": "N0123",
+      "target": "N0124"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.57,
+      "confidence": 0.72,
+      "source": "N0127",
+      "target": "N0131"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.82,
+      "confidence": 0.73,
+      "source": "N0128",
+      "target": "N0129"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.6,
+      "confidence": 0.72,
+      "source": "N0128",
+      "target": "N0130"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.08,
+      "confidence": 0.65,
+      "source": "N0133",
+      "target": "N0135"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.65,
+      "confidence": 0.65,
+      "source": "N0133",
+      "target": "N0136"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.39,
+      "confidence": 0.76,
+      "source": "N0137",
+      "target": "N0139"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.94,
+      "confidence": 0.73,
+      "source": "N0137",
+      "target": "N0140"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.18,
+      "confidence": 0.6,
+      "source": "N0141",
+      "target": "N0144"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.6,
+      "confidence": 0.59,
+      "source": "N0142",
+      "target": "N0143"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.65,
+      "confidence": 0.79,
+      "source": "N0147",
+      "target": "N0148"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.34,
+      "confidence": 0.73,
+      "source": "N0149",
+      "target": "N0151"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.29,
+      "confidence": 0.69,
+      "source": "N0153",
+      "target": "N0155"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.87,
+      "confidence": 0.83,
+      "source": "N0153",
+      "target": "N0156"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.34,
+      "confidence": 0.7,
+      "source": "N0157",
+      "target": "N0160"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.57,
+      "confidence": 0.74,
+      "source": "N0158",
+      "target": "N0159"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.79,
+      "confidence": 0.8,
+      "source": "N0163",
+      "target": "N0164"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.58,
+      "confidence": 0.74,
+      "source": "N0165",
+      "target": "N0168"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.55,
+      "confidence": 0.73,
+      "source": "N0165",
+      "target": "N0169"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.38,
+      "confidence": 0.86,
+      "source": "N0166",
+      "target": "N0167"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.04,
+      "confidence": 0.66,
+      "source": "N0172",
+      "target": "N0174"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.59,
+      "confidence": 0.7,
+      "source": "N0172",
+      "target": "N0175"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.22,
+      "confidence": 0.85,
+      "source": "N0177",
+      "target": "N0178"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.3,
+      "confidence": 0.64,
+      "source": "N0180",
+      "target": "N0181"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.46,
+      "confidence": 0.74,
+      "source": "N0180",
+      "target": "N0182"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.19,
+      "confidence": 0.66,
+      "source": "N0183",
+      "target": "N0184"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.53,
+      "confidence": 0.78,
+      "source": "N0185",
+      "target": "N0186"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.55,
+      "confidence": 0.61,
+      "source": "N0187",
+      "target": "N0191"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.71,
+      "confidence": 0.89,
+      "source": "N0187",
+      "target": "N0192"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.24,
+      "confidence": 0.77,
+      "source": "N0188",
+      "target": "N0189"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.65,
+      "confidence": 0.78,
+      "source": "N0188",
+      "target": "N0190"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.08,
+      "confidence": 0.62,
+      "source": "N0193",
+      "target": "N0194"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.19,
+      "confidence": 0.6,
+      "source": "N0193",
+      "target": "N0195"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.88,
+      "confidence": 0.86,
+      "source": "N0196",
+      "target": "N0200"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.27,
+      "confidence": 0.78,
+      "source": "N0197",
+      "target": "N0198"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.18,
+      "confidence": 0.73,
+      "source": "N0197",
+      "target": "N0199"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.75,
+      "confidence": 0.81,
+      "source": "N0202",
+      "target": "N0203"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.27,
+      "confidence": 0.86,
+      "source": "N0205",
+      "target": "N0209"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.95,
+      "confidence": 0.72,
+      "source": "N0205",
+      "target": "N0210"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 0.7,
+      "confidence": 0.64,
+      "source": "N0206",
+      "target": "N0207"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.79,
+      "confidence": 0.65,
+      "source": "N0206",
+      "target": "N0208"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.85,
+      "confidence": 0.69,
+      "source": "N0213",
+      "target": "N0214"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.87,
+      "confidence": 0.7,
+      "source": "N0217",
+      "target": "N0220"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.35,
+      "confidence": 0.87,
+      "source": "N0217",
+      "target": "N0221"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.57,
+      "confidence": 0.89,
+      "source": "N0218",
+      "target": "N0219"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.28,
+      "confidence": 0.59,
+      "source": "N0222",
+      "target": "N0223"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.89,
+      "confidence": 0.64,
+      "source": "N0222",
+      "target": "N0224"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.66,
+      "confidence": 0.75,
+      "source": "N0227",
+      "target": "N0228"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.31,
+      "confidence": 0.82,
+      "source": "N0229",
+      "target": "N0232"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.95,
+      "confidence": 0.58,
+      "source": "N0229",
+      "target": "N0233"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.56,
+      "confidence": 0.69,
+      "source": "N0230",
+      "target": "N0231"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.4,
+      "confidence": 0.87,
+      "source": "N0234",
+      "target": "N0236"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.31,
+      "confidence": 0.76,
+      "source": "N0237",
+      "target": "N0238"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.96,
+      "confidence": 0.65,
+      "source": "N0237",
+      "target": "N0239"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.03,
+      "confidence": 0.79,
+      "source": "N0240",
+      "target": "N0241"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.36,
+      "confidence": 0.7,
+      "source": "N0240",
+      "target": "N0242"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.02,
+      "confidence": 0.88,
+      "source": "N0243",
+      "target": "N0246"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.19,
+      "confidence": 0.84,
+      "source": "N0244",
+      "target": "N0245"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.74,
+      "confidence": 0.6,
+      "source": "N0247",
+      "target": "N0248"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.92,
+      "confidence": 0.71,
+      "source": "N0247",
+      "target": "N0249"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.46,
+      "confidence": 0.71,
+      "source": "N0251",
+      "target": "N0254"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.23,
+      "confidence": 0.84,
+      "source": "N0252",
+      "target": "N0253"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.42,
+      "confidence": 0.88,
+      "source": "N0255",
+      "target": "N0257"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.85,
+      "confidence": 0.9,
+      "source": "N0262",
+      "target": "N0264"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.16,
+      "confidence": 0.7,
+      "source": "N0262",
+      "target": "N0265"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.71,
+      "confidence": 0.68,
+      "source": "N0266",
+      "target": "N0267"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.93,
+      "confidence": 0.73,
+      "source": "N0268",
+      "target": "N0269"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.1,
+      "confidence": 0.71,
+      "source": "N0268",
+      "target": "N0270"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.98,
+      "confidence": 0.89,
+      "source": "N0271",
+      "target": "N0272"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.79,
+      "confidence": 0.85,
+      "source": "N0271",
+      "target": "N0273"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.55,
+      "confidence": 0.62,
+      "source": "N0275",
+      "target": "N0276"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.15,
+      "confidence": 0.68,
+      "source": "N0275",
+      "target": "N0277"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.04,
+      "confidence": 0.64,
+      "source": "N0278",
+      "target": "N0279"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.11,
+      "confidence": 0.88,
+      "source": "N0280",
+      "target": "N0281"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.3,
+      "confidence": 0.84,
+      "source": "N0280",
+      "target": "N0282"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.7,
+      "confidence": 0.61,
+      "source": "N0283",
+      "target": "N0285"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.15,
+      "confidence": 0.79,
+      "source": "N0287",
+      "target": "N0288"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.12,
+      "confidence": 0.69,
+      "source": "N0292",
+      "target": "N0294"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.36,
+      "confidence": 0.58,
+      "source": "N0292",
+      "target": "N0295"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 9.82,
+      "confidence": 0.72,
+      "source": "N0297",
+      "target": "N0298"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.07,
+      "confidence": 0.87,
+      "source": "N0299",
+      "target": "N0300"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.2,
+      "confidence": 0.63,
+      "source": "N0299",
+      "target": "N0301"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 2.72,
+      "confidence": 0.82,
+      "source": "N0302",
+      "target": "N0303"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.66,
+      "confidence": 0.86,
+      "source": "N0302",
+      "target": "N0304"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 7.5,
+      "confidence": 0.63,
+      "source": "N0307",
+      "target": "N0308"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.38,
+      "confidence": 0.73,
+      "source": "N0307",
+      "target": "N0309"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 4.19,
+      "confidence": 0.66,
+      "source": "N0310",
+      "target": "N0311"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.23,
+      "confidence": 0.86,
+      "source": "N0312",
+      "target": "N0314"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 5.22,
+      "confidence": 0.72,
+      "source": "N0312",
+      "target": "N0315"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 6.6,
+      "confidence": 0.62,
+      "source": "N0316",
+      "target": "N0317"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 1.14,
+      "confidence": 0.63,
+      "source": "N0318",
+      "target": "N0320"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 8.92,
+      "confidence": 0.87,
+      "source": "N0318",
+      "target": "N0321"
+    },
+    {
+      "relation": "sources_from",
+      "trade_volume_usd_m": 3.34,
+      "confidence": 0.86,
+      "source": "N0323",
+      "target": "N0324"
+    }
+  ]
+}

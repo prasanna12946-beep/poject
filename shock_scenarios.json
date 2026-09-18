@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SHOCK-001",
+    "type": "Port Strike",
+    "region": "Vietnam",
+    "affected_industries": ["Electronics", "Textiles"],
+    "severity": 0.8,
+    "duration_days": 14,
+    "description": "Prolonged labor strike halts container throughput at a major Vietnamese export port."
+  },
+  {
+    "id": "SHOCK-002",
+    "type": "Geopolitical Shift",
+    "region": "China",
+    "affected_industries": ["Semiconductors", "Electronics"],
+    "severity": 0.9,
+    "duration_days": 90,
+    "description": "New export controls restrict cross-border shipment of critical semiconductor components."
+  },
+  {
+    "id": "SHOCK-003",
+    "type": "Environmental Disaster",
+    "region": "India",
+    "affected_industries": ["Agrifood", "Textiles"],
+    "severity": 0.7,
+    "duration_days": 30,
+    "description": "Severe flooding disrupts inland logistics corridors and raw material harvests."
+  }
+]

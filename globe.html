@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>DominoRisk AI — Global Trade Digital Twin</title>
+  <style>
+    body { margin: 0; background: #000; overflow: hidden; font-family: system-ui, sans-serif; }
+    #info { position: absolute; top: 12px; left: 12px; color: #fff; z-index: 10; max-width: 280px; }
+    #info h1 { font-size: 16px; margin: 0 0 6px; }
+    #info p { font-size: 12px; color: #aaa; margin: 0; }
+    #tooltip { position: absolute; bottom: 16px; left: 12px; color: #fff; font-size: 12px;
+               background: rgba(20,20,20,0.85); padding: 8px 12px; border-radius: 6px; display: none; z-index: 10; }
+  </style>
+</head>
+<body>
+  <div id="info">
+    <h1>DominoRisk AI</h1>
+    <p>Node color = failure risk score (GNN output). Click a node for details.
+       Load a shock scenario via loadShock() in the console for the "Live Shock" demo.</p>
+  </div>
+  <div id="tooltip"></div>
+  <div id="globeViz"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.128.0/three.min.js"></script>
+  <script src="https://unpkg.com/globe.gl"></script>
+  <script>
+    const tooltip = document.getElementById('tooltip');
+
+    function riskColor(score) {
+      // green -> yellow -> red
+      const s = Math.max(0, Math.min(1, score));
+      const r = Math.round(255 * s);
+      const g = Math.round(255 * (1 - s));
+      return `rgb(${r},${g},60)`;
+    }
+
+    Promise.all([
+      fetch('../data/nodes.geojson').then(r => r.json()),
+      fetch('../data/edges.geojson').then(r => r.json())
+    ]).then(([nodesGeo, edgesGeo]) => {
+
+      const points = nodesGeo.features.map(f => ({
+        lat: f.geometry.coordinates[1],
+        lng: f.geometry.coordinates[0],
+        name: f.properties.name,
+        country: f.properties.country,
+        industry: f.properties.industry,
+        tier: f.properties.tier,
+        risk: f.properties.risk_score || 0,
+      }));
+
+      const arcs = edgesGeo.features.map(f => ({
+        startLat: f.geometry.coordinates[0][1],
+        startLng: f.geometry.coordinates[0][0],
+        endLat: f.geometry.coordinates[1][1],
+        endLng: f.geometry.coordinates[1][0],
+        volume: f.properties.trade_volume_usd_m,
+      }));
+
+      const world = Globe()
+        (document.getElementById('globeViz'))
+        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+        .backgroundColor('#000000')
+        .pointsData(points)
+        .pointLat('lat').pointLng('lng')
+        .pointColor(d => riskColor(d.risk))
+        .pointAltitude(d => 0.02 + d.risk * 0.08)
+        .pointRadius(0.35)
+        .pointLabel(d => `${d.name} (${d.country}) — risk ${d.risk.toFixed(2)}`)
+        .onPointClick(d => {
+          tooltip.style.display = 'block';
+          tooltip.innerHTML = `<b>${d.name}</b><br>${d.industry} · Tier ${d.tier} · ${d.country}<br>Risk score: ${d.risk.toFixed(3)}`;
+        })
+        .arcsData(arcs)
+        .arcStartLat('startLat').arcStartLng('startLng')
+        .arcEndLat('endLat').arcEndLng('endLng')
+        .arcColor(() => 'rgba(120,180,255,0.35)')
+        .arcStroke(0.25)
+        .arcDashLength(0.4)
+        .arcDashGap(2)
+        .arcDashAnimateTime(3000);
+
+      // "Live Shock" demo hook — call from console or wire to a button.
+      // Simulates a disruption propagating outward from one node.
+      window.loadShock = function (nodeName) {
+        const hit = points.find(p => p.name === nodeName) || points[0];
+        world.pointColor(d => d === hit ? '#ff0033' : riskColor(d.risk));
+        console.log(`Shock triggered at ${hit.name}. Wire this to the RAG agent's
+                      propagation output (Day 4/5) to recolor downstream nodes.`);
+      };
+    });
+  </script>
+</body>
+</html>

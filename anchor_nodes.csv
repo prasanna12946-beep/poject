@@ -1,0 +1,121 @@
+node_id,name,country,industry,tier,criticality_score
+N0000,Orion Industries,China,Electronics,1,0.767
+N0001,Vertex Trading Ltd.,Germany,Pharma,1,0.226
+N0002,Nimbus Manufacturing,China,Automotive,1,0.631
+N0003,Atlas Foundry,USA,Electronics,1,0.184
+N0004,Kestrel Materials,Germany,Electronics,1,0.605
+N0005,Solace Chemicals Inc.,Mexico,Logistics,1,0.298
+N0006,Ferrovia Components,Netherlands,Agrifood,1,0.828
+N0007,Brightloom Group,USA,Textiles,1,0.728
+N0008,Cascadia Systems,Brazil,Agrifood,1,0.24
+N0009,Ironclad Logistics Co.,Brazil,Automotive,1,0.183
+N0010,Meridian Textiles Ltd.,China,Semiconductors,1,0.863
+N0011,Solstice Holdings,Netherlands,Agrifood,1,0.826
+N0012,Quantum Industries,South Korea,Automotive,1,0.976
+N0013,Harbor Trading Ltd.,Japan,Automotive,1,0.597
+N0014,Evergreen Manufacturing,Netherlands,Semiconductors,1,0.62
+N0015,Zenith Foundry,China,Electronics,1,0.695
+N0016,Palisade Materials,Vietnam,Automotive,1,0.87
+N0017,Northstar Chemicals Inc.,China,Logistics,1,0.35
+N0018,Tundra Components,Brazil,Textiles,1,0.433
+N0019,Beacon Group,Germany,Agrifood,1,0.732
+N0020,Orion Systems,China,Textiles,1,0.581
+N0021,Vertex Logistics Co.,Germany,Textiles,1,0.516
+N0022,Nimbus Textiles Ltd.,Vietnam,Pharma,1,0.716
+N0023,Atlas Holdings,USA,Pharma,1,0.84
+N0024,Kestrel Industries,Brazil,Logistics,1,0.341
+N0025,Solace Trading Ltd.,Germany,Semiconductors,1,0.291
+N0026,Ferrovia Manufacturing,South Korea,Logistics,1,0.896
+N0027,Brightloom Foundry,South Korea,Textiles,1,0.338
+N0028,Cascadia Materials,Germany,Agrifood,1,0.772
+N0029,Ironclad Chemicals Inc.,Japan,Logistics,1,0.426
+N0030,Meridian Components,India,Chemicals,1,0.182
+N0031,Solstice Group,USA,Automotive,1,0.238
+N0032,Quantum Systems,India,Logistics,1,0.637
+N0033,Harbor Logistics Co.,Japan,Logistics,1,0.636
+N0034,Evergreen Textiles Ltd.,South Korea,Agrifood,1,0.974
+N0035,Zenith Holdings,USA,Automotive,1,0.714
+N0036,Palisade Industries,Mexico,Agrifood,1,0.792
+N0037,Northstar Trading Ltd.,Brazil,Automotive,1,0.364
+N0038,Tundra Manufacturing,India,Chemicals,1,0.103
+N0039,Beacon Foundry,Vietnam,Textiles,1,0.557
+N0040,Orion Materials,China,Agrifood,1,0.858
+N0041,Vertex Chemicals Inc.,Mexico,Pharma,1,0.238
+N0042,Nimbus Components,India,Electronics,1,0.639
+N0043,Atlas Group,South Korea,Electronics,1,0.201
+N0044,Kestrel Systems,Brazil,Agrifood,1,0.316
+N0045,Solace Logistics Co.,Germany,Automotive,1,0.177
+N0046,Ferrovia Textiles Ltd.,South Korea,Automotive,1,0.98
+N0047,Brightloom Holdings,Mexico,Textiles,1,0.216
+N0048,Cascadia Industries,South Korea,Textiles,1,0.339
+N0049,Ironclad Trading Ltd.,Netherlands,Logistics,1,0.968
+N0050,Meridian Manufacturing,Mexico,Pharma,1,0.742
+N0051,Solstice Foundry,Japan,Semiconductors,1,0.494
+N0052,Quantum Materials,Mexico,Chemicals,1,0.209
+N0053,Harbor Chemicals Inc.,Germany,Automotive,1,0.404
+N0054,Evergreen Components,Netherlands,Pharma,1,0.63
+N0055,Zenith Group,USA,Automotive,1,0.737
+N0056,Palisade Systems,USA,Pharma,1,0.161
+N0057,Northstar Logistics Co.,USA,Semiconductors,1,0.164
+N0058,Tundra Textiles Ltd.,Germany,Agrifood,1,0.702
+N0059,Beacon Holdings,Germany,Textiles,1,0.751
+N0060,Orion Industries,Netherlands,Chemicals,1,0.319
+N0061,Vertex Trading Ltd.,South Korea,Logistics,1,0.271
+N0062,Nimbus Manufacturing,China,Logistics,1,0.419
+N0063,Atlas Foundry,Japan,Chemicals,1,0.877
+N0064,Kestrel Materials,USA,Automotive,1,0.155
+N0065,Solace Chemicals Inc.,Brazil,Automotive,1,0.324
+N0066,Ferrovia Components,Germany,Chemicals,1,0.226
+N0067,Brightloom Group,India,Agrifood,1,0.516
+N0068,Cascadia Systems,China,Chemicals,1,0.827
+N0069,Ironclad Logistics Co.,Mexico,Automotive,1,0.146
+N0070,Meridian Textiles Ltd.,Mexico,Electronics,1,0.972
+N0071,Solstice Holdings,Germany,Textiles,1,0.466
+N0072,Quantum Industries,South Korea,Pharma,1,0.878
+N0073,Harbor Trading Ltd.,USA,Textiles,1,0.441
+N0074,Evergreen Manufacturing,Japan,Agrifood,1,0.934
+N0075,Zenith Foundry,South Korea,Agrifood,1,0.481
+N0076,Palisade Materials,Mexico,Chemicals,1,0.239
+N0077,Northstar Chemicals Inc.,Vietnam,Pharma,1,0.972
+N0078,Tundra Components,Netherlands,Electronics,1,0.773
+N0079,Beacon Group,USA,Electronics,1,0.626
+N0080,Orion Systems,Mexico,Textiles,1,0.151
+N0081,Vertex Logistics Co.,Mexico,Automotive,1,0.866
+N0082,Nimbus Textiles Ltd.,China,Automotive,1,0.708
+N0083,Atlas Holdings,Germany,Logistics,1,0.208
+N0084,Kestrel Industries,Netherlands,Pharma,1,0.621
+N0085,Solace Trading Ltd.,USA,Automotive,1,0.477
+N0086,Ferrovia Manufacturing,Netherlands,Semiconductors,1,0.941
+N0087,Brightloom Foundry,Germany,Semiconductors,1,0.315
+N0088,Cascadia Materials,Japan,Textiles,1,0.705
+N0089,Ironclad Chemicals Inc.,Vietnam,Chemicals,1,0.385
+N0090,Meridian Components,China,Electronics,1,0.512
+N0091,Solstice Group,Netherlands,Automotive,1,0.166
+N0092,Quantum Systems,Germany,Agrifood,1,0.219
+N0093,Harbor Logistics Co.,Brazil,Automotive,1,0.891
+N0094,Evergreen Textiles Ltd.,Brazil,Agrifood,1,0.242
+N0095,Zenith Holdings,Mexico,Agrifood,1,0.651
+N0096,Palisade Industries,Mexico,Electronics,1,0.701
+N0097,Northstar Trading Ltd.,Mexico,Agrifood,1,0.939
+N0098,Tundra Manufacturing,China,Textiles,1,0.338
+N0099,Beacon Foundry,China,Textiles,1,0.345
+N0100,Orion Materials,Netherlands,Pharma,1,0.746
+N0101,Vertex Chemicals Inc.,Germany,Agrifood,1,0.555
+N0102,Nimbus Components,Vietnam,Electronics,1,0.183
+N0103,Atlas Group,Japan,Agrifood,1,0.14
+N0104,Kestrel Systems,Brazil,Textiles,1,0.673
+N0105,Solace Logistics Co.,Vietnam,Textiles,1,0.767
+N0106,Ferrovia Textiles Ltd.,Mexico,Logistics,1,0.605
+N0107,Brightloom Holdings,China,Automotive,1,0.951
+N0108,Cascadia Industries,India,Electronics,1,0.851
+N0109,Ironclad Trading Ltd.,Netherlands,Textiles,1,0.487
+N0110,Meridian Manufacturing,USA,Agrifood,1,0.428
+N0111,Solstice Foundry,USA,Semiconductors,1,0.289
+N0112,Quantum Materials,Germany,Automotive,1,0.418
+N0113,Harbor Chemicals Inc.,Mexico,Logistics,1,0.976
+N0114,Evergreen Components,India,Pharma,1,0.878
+N0115,Zenith Group,India,Logistics,1,0.122
+N0116,Palisade Systems,Brazil,Logistics,1,0.822
+N0117,Northstar Logistics Co.,Germany,Agrifood,1,0.243
+N0118,Tundra Textiles Ltd.,China,Logistics,1,0.885
+N0119,Beacon Holdings,South Korea,Pharma,1,0.28
