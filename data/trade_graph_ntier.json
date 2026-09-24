@@ -2818,7 +2818,7 @@
       "id": "N0325"
     }
   ],
-  "edges": [
+  "links": [
     {
       "relation": "sources_from",
       "trade_volume_usd_m": 41.12,

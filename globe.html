@@ -4,42 +4,95 @@
   <meta charset="utf-8" />
   <title>DominoRisk AI — Global Trade Digital Twin</title>
   <style>
-    body { margin: 0; background: #000; overflow: hidden; font-family: system-ui, sans-serif; }
-    #info { position: absolute; top: 12px; left: 12px; color: #fff; z-index: 10; max-width: 280px; }
+    body { margin: 0; background: #000; overflow: hidden; font-family: system-ui, sans-serif; color: #fff; }
+    .panel { position: absolute; z-index: 10; background: rgba(15,15,25,0.92);
+             border: 1px solid #333; border-radius: 8px; padding: 12px 14px; }
+    #info { top: 12px; left: 12px; max-width: 260px; }
     #info h1 { font-size: 16px; margin: 0 0 6px; }
-    #info p { font-size: 12px; color: #aaa; margin: 0; }
-    #tooltip { position: absolute; bottom: 16px; left: 12px; color: #fff; font-size: 12px;
-               background: rgba(20,20,20,0.85); padding: 8px 12px; border-radius: 6px; display: none; z-index: 10; }
+    #info p { font-size: 11px; color: #aaa; margin: 0 0 8px; }
+    .shockBtn { display: block; margin: 4px 0; padding: 6px 10px; font-size: 11px;
+                background: #1a1a2e; color: #fff; border: 1px solid #444; border-radius: 4px;
+                cursor: pointer; width: 100%; text-align: left; }
+    .shockBtn:hover { background: #2a2a4e; }
+    #runSimBtn { background: #4a2e6e; border-color: #7a4ec4; font-weight: bold; }
+    #runSimBtn:hover { background: #5e3b8a; }
+
+    #legend { top: 12px; right: 12px; font-size: 11px; }
+    #legend .row { display: flex; align-items: center; margin: 3px 0; }
+    #legend .swatch { width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; }
+
+    #impactSummary { top: 100px; right: 12px; width: 210px; font-size: 11px; display: none; }
+    #impactSummary h2 { font-size: 12px; margin: 0 0 8px; color: #ffcc66; }
+    #impactSummary .stat { margin: 4px 0; }
+    #impactSummary .stat b { color: #fff; }
+
+    #mitigationPanel { bottom: 12px; left: 12px; width: 340px; font-size: 12px; display: none; max-height: 45vh; overflow-y: auto; }
+    #mitigationPanel h2 { font-size: 13px; margin: 0 0 6px; color: #ff6666; }
+    #mitigationPanel .meta { color: #aaa; font-size: 11px; margin-bottom: 8px; }
+    #mitigationPanel ol { margin: 4px 0 8px 18px; padding: 0; }
+    #mitigationPanel li { margin-bottom: 4px; }
+    #mitigationPanel .priority { color: #ffcc66; font-size: 11px; }
+
+    #explainPanel { bottom: 12px; right: 12px; width: 260px; font-size: 11px; display: none; }
+    #explainPanel h2 { font-size: 12px; margin: 0 0 6px; color: #66ccff; }
+    #explainPanel ul { margin: 4px 0; padding-left: 16px; }
+    #explainPanel li { margin-bottom: 4px; }
   </style>
 </head>
 <body>
-  <div id="info">
+  <div id="info" class="panel">
     <h1>DominoRisk AI</h1>
-    <p>Node color = failure risk score (GNN output). Click a node for details.
-       Load a shock scenario via loadShock() in the console for the "Live Shock" demo.</p>
+    <p>Click a node to trace its trade routes. Click empty space to clear. Load a shock scenario to see the cascade.</p>
+    <button id="runSimBtn" class="shockBtn">▶ Run Simulation</button>
+    <button id="topRiskBtn" class="shockBtn">✦ Highlight Top 5 Risk Nodes</button>
+    <div id="shockButtons"></div>
   </div>
-  <div id="tooltip"></div>
+
+  <div id="legend" class="panel">
+    <div class="row"><div class="swatch" style="background:#33cc55"></div>Low risk (0–0.3)</div>
+    <div class="row"><div class="swatch" style="background:#e6c229"></div>Medium risk (0.3–0.7)</div>
+    <div class="row"><div class="swatch" style="background:#e63946"></div>High risk (0.7–1.0)</div>
+    <div class="row"><div class="swatch" style="background:#ff0033"></div>Directly shocked</div>
+    <div class="row"><div class="swatch" style="background:#ff9955"></div>Cascading impact</div>
+    <div class="row" style="margin-top:6px;"><div style="width:16px;height:2px;background:#7ab4ff;margin-right:6px;"></div>Trade link (brighter = higher volume)</div>
+    <div class="row"><div style="width:16px;height:2px;background:#ff5a28;margin-right:6px;"></div>Risk propagation path</div>
+    <div class="row" style="margin-top:6px;"><div class="swatch" style="background:#ffd23f"></div>Buyer (depends on selected node)</div>
+    <div class="row"><div class="swatch" style="background:#00ccff"></div>Supplier (selected node depends on it)</div>
+  </div>
+
+  <div id="impactSummary" class="panel">
+    <h2>IMPACT SUMMARY</h2>
+    <div class="stat">Direct impact: <b id="impDirect">-</b> companies</div>
+    <div class="stat">Indirect impact: <b id="impIndirect">-</b> companies</div>
+    <div class="stat">Cascade depth: <b id="impHops">-</b> hops</div>
+    <div class="stat">Industries: <b id="impIndustries">-</b></div>
+    <div class="stat">Regions: <b id="impRegions">-</b></div>
+  </div>
+
+  <div id="mitigationPanel" class="panel"></div>
+  <div id="explainPanel" class="panel"></div>
+
   <div id="globeViz"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.128.0/three.min.js"></script>
   <script src="https://unpkg.com/globe.gl"></script>
   <script>
-    const tooltip = document.getElementById('tooltip');
-
     function riskColor(score) {
-      // green -> yellow -> red
-      const s = Math.max(0, Math.min(1, score));
-      const r = Math.round(255 * s);
-      const g = Math.round(255 * (1 - s));
-      return `rgb(${r},${g},60)`;
+      if (score >= 0.7) return '#e63946';
+      if (score >= 0.3) return '#e6c229';
+      return '#33cc55';
     }
 
     Promise.all([
       fetch('../data/nodes.geojson').then(r => r.json()),
-      fetch('../data/edges.geojson').then(r => r.json())
-    ]).then(([nodesGeo, edgesGeo]) => {
+      fetch('../data/edges.geojson').then(r => r.json()),
+      fetch('../data/shock_results.json').then(r => r.json()).catch(() => ({})),
+      fetch('../data/shock_scenarios.json').then(r => r.json()).catch(() => []),
+      fetch('../data/node_explanations.json').then(r => r.json()).catch(() => ({}))
+    ]).then(([nodesGeo, edgesGeo, shockResults, shockScenarios, nodeExplanations]) => {
 
       const points = nodesGeo.features.map(f => ({
+        id: f.properties.id,
         lat: f.geometry.coordinates[1],
         lng: f.geometry.coordinates[0],
         name: f.properties.name,
@@ -49,13 +102,115 @@
         risk: f.properties.risk_score || 0,
       }));
 
-      const arcs = edgesGeo.features.map(f => ({
+      const arcs = edgesGeo.features.map((f, i) => ({
+        _idx: i,
+        source: f.properties.source,
+        target: f.properties.target,
+        volume: f.properties.trade_volume_usd_m || 1,
         startLat: f.geometry.coordinates[0][1],
         startLng: f.geometry.coordinates[0][0],
         endLat: f.geometry.coordinates[1][1],
         endLng: f.geometry.coordinates[1][0],
-        volume: f.properties.trade_volume_usd_m,
       }));
+      const maxVolume = Math.max(...arcs.map(a => a.volume));
+
+      let hoveredNodeId = null;
+      let selectedNodeId = null;
+      let revealedArcs = new Set();
+      let buyerIds = new Set();    // nodes that BUY FROM the selected node
+      let supplierIds = new Set(); // nodes the selected node BUYS FROM
+
+      // levelOf: 0 for direct-hit, hop number for cascading, null if unaffected
+      function levelOf(id) {
+        const s = shockState[id];
+        if (s === 'direct') return 0;
+        if (typeof s === 'number') return s;
+        return null;
+      }
+
+      // an edge u(buyer) -> v(supplier) is a real propagation path when
+      // v failed at level L and u is affected at level L+1 (u depends on v)
+      function isPropagationEdge(d) {
+        const lv = levelOf(d.target), lu = levelOf(d.source);
+        return lv !== null && lu !== null && lu === lv + 1;
+      }
+
+      function isConnectedToSelected(d) {
+        return selectedNodeId && (d.source === selectedNodeId || d.target === selectedNodeId);
+      }
+
+      function shockActive() {
+        return Object.keys(shockState).length > 0;
+      }
+
+      function arcColorFor(d) {
+        if (isPropagationEdge(d)) return 'rgba(255,90,40,0.95)';
+        if (selectedNodeId) {
+          if (isConnectedToSelected(d)) {
+            // gradient: buyer (source) -> supplier (target), so direction
+            // is readable at a glance even on a static line
+            return ['#ffd23f', '#00ccff'];
+          }
+          return 'rgba(120,180,255,0.02)'; // fade out everything unrelated to the route being traced
+        }
+        if (shockActive()) {
+          return 'rgba(120,180,255,0.02)'; // fade background trade links so the cascade stands out
+        }
+        if (hoveredNodeId && (d.source === hoveredNodeId || d.target === hoveredNodeId)) {
+          return 'rgba(255,255,255,0.95)';
+        }
+        const strength = 0.05 + 0.25 * (d.volume / maxVolume);
+        return `rgba(120,180,255,${strength})`;
+      }
+
+      function arcStrokeFor(d) {
+        if (isPropagationEdge(d)) return 0.6;
+        if (selectedNodeId) {
+          if (isConnectedToSelected(d)) return 0.55;
+          return 0.03;
+        }
+        if (shockActive()) return 0.03;
+        if (hoveredNodeId && (d.source === hoveredNodeId || d.target === hoveredNodeId)) return 0.5;
+        return 0.1 + 0.3 * (d.volume / maxVolume);
+      }
+
+      // solid (non-animated) line for the traced route; normal flowing
+      // dash everywhere else
+      function arcDashLengthFor(d) {
+        return (selectedNodeId && isConnectedToSelected(d)) ? 1 : 0.4;
+      }
+      function arcDashGapFor(d) {
+        return (selectedNodeId && isConnectedToSelected(d)) ? 0 : 2;
+      }
+      function arcAnimTimeFor(d) {
+        if (selectedNodeId && isConnectedToSelected(d)) return 1; // effectively frozen/solid
+        return isPropagationEdge(d) ? 900 : 4000;
+      }
+
+      // state for the current shock overlay: nodeId -> 'direct' | hop number
+      let shockState = {};
+
+      function colorFor(d) {
+        if (selectedNodeId) {
+          if (d.id === selectedNodeId) return '#ffffff';
+          if (supplierIds.has(d.id)) return '#00ccff';
+          if (buyerIds.has(d.id)) return '#ffd23f';
+          return 'rgba(120,180,255,0.08)'; // fade unrelated nodes
+        }
+        const s = shockState[d.id];
+        if (s === 'direct') return '#ff0033';
+        if (typeof s === 'number') return '#ff9955';
+        return riskColor(d.risk);
+      }
+
+      function pointRadiusFor(d) {
+        if (selectedNodeId) {
+          if (d.id === selectedNodeId) return 0.65;
+          if (buyerIds.has(d.id) || supplierIds.has(d.id)) return 0.45;
+          return 0.15;
+        }
+        return shockState[d.id] !== undefined ? 0.5 : 0.22;
+      }
 
       const world = Globe()
         (document.getElementById('globeViz'))
@@ -63,30 +218,229 @@
         .backgroundColor('#000000')
         .pointsData(points)
         .pointLat('lat').pointLng('lng')
-        .pointColor(d => riskColor(d.risk))
+        .pointColor(colorFor)
         .pointAltitude(d => 0.02 + d.risk * 0.08)
-        .pointRadius(0.35)
+        .pointRadius(pointRadiusFor)
         .pointLabel(d => `${d.name} (${d.country}) — risk ${d.risk.toFixed(2)}`)
-        .onPointClick(d => {
-          tooltip.style.display = 'block';
-          tooltip.innerHTML = `<b>${d.name}</b><br>${d.industry} · Tier ${d.tier} · ${d.country}<br>Risk score: ${d.risk.toFixed(3)}`;
+        .onPointClick(d => selectNode(d.id))
+        .onGlobeClick(() => deselectNode())
+        .onPointHover(d => {
+          hoveredNodeId = d ? d.id : null;
+          world.arcColor(arcColorFor).arcStroke(arcStrokeFor);
         })
         .arcsData(arcs)
         .arcStartLat('startLat').arcStartLng('startLng')
         .arcEndLat('endLat').arcEndLng('endLng')
-        .arcColor(() => 'rgba(120,180,255,0.35)')
-        .arcStroke(0.25)
-        .arcDashLength(0.4)
-        .arcDashGap(2)
-        .arcDashAnimateTime(3000);
+        .arcColor(arcColorFor)
+        .arcStroke(arcStrokeFor)
+        .arcDashLength(arcDashLengthFor)
+        .arcDashGap(arcDashGapFor)
+        .arcDashAnimateTime(arcAnimTimeFor)
+        .ringsData([])
+        .ringColor(() => t => `rgba(255,255,255,${1 - t})`)
+        .ringMaxRadius(3)
+        .ringPropagationSpeed(2)
+        .ringRepeatPeriod(800);
 
-      // "Live Shock" demo hook — call from console or wire to a button.
-      // Simulates a disruption propagating outward from one node.
-      window.loadShock = function (nodeName) {
-        const hit = points.find(p => p.name === nodeName) || points[0];
-        world.pointColor(d => d === hit ? '#ff0033' : riskColor(d.risk));
-        console.log(`Shock triggered at ${hit.name}. Wire this to the RAG agent's
-                      propagation output (Day 4/5) to recolor downstream nodes.`);
+      function refresh() {
+        world.pointColor(colorFor)
+             .pointRadius(pointRadiusFor)
+             .arcColor(arcColorFor)
+             .arcStroke(arcStrokeFor)
+             .arcDashLength(arcDashLengthFor)
+             .arcDashGap(arcDashGapFor)
+             .arcDashAnimateTime(arcAnimTimeFor);
+      }
+
+      function selectNode(nodeId) {
+        selectedNodeId = nodeId;
+        buyerIds = new Set();
+        supplierIds = new Set();
+
+        arcs.forEach(a => {
+          if (a.source === nodeId) supplierIds.add(a.target); // nodeId buys from a.target
+          if (a.target === nodeId) buyerIds.add(a.source);    // a.source buys from nodeId
+        });
+
+        showExplanation(nodeId);
+
+        world.pointColor(colorFor).pointRadius(pointRadiusFor)
+             .arcColor(arcColorFor).arcStroke(arcStrokeFor)
+             .arcDashLength(arcDashLengthFor).arcDashGap(arcDashGapFor)
+             .arcDashAnimateTime(arcAnimTimeFor);
+
+        flyToCluster([nodeId, ...buyerIds, ...supplierIds]);
+      }
+
+      // Auto-fit the camera so the selected node AND every node it's
+      // connected to are visible together, even if they're far apart
+      // on the globe (e.g. supplier on another continent).
+      function flyToCluster(nodeIds) {
+        const pts = nodeIds.map(id => points.find(p => p.id === id)).filter(Boolean);
+        if (!pts.length) return;
+
+        const avgLat = pts.reduce((s, p) => s + p.lat, 0) / pts.length;
+        const avgLng = pts.reduce((s, p) => s + p.lng, 0) / pts.length;
+
+        let maxDist = 0;
+        pts.forEach(p => {
+          const d = Math.sqrt((p.lat - avgLat) ** 2 + (p.lng - avgLng) ** 2);
+          if (d > maxDist) maxDist = d;
+        });
+        // wider spread of connections -> zoom out further so all are visible
+        const altitude = Math.min(2.8, Math.max(0.7, maxDist / 35));
+
+        world.pointOfView({ lat: avgLat, lng: avgLng, altitude }, 1200);
+      }
+
+      function deselectNode() {
+        selectedNodeId = null;
+        buyerIds = new Set();
+        supplierIds = new Set();
+        world.pointColor(colorFor).pointRadius(pointRadiusFor)
+             .arcColor(arcColorFor).arcStroke(arcStrokeFor)
+             .arcDashLength(arcDashLengthFor).arcDashGap(arcDashGapFor)
+             .arcDashAnimateTime(arcAnimTimeFor);
+        document.getElementById('explainPanel').style.display = 'none';
+      }
+
+      function showExplanation(nodeId) {
+        const ex = nodeExplanations[nodeId];
+        const panel = document.getElementById('explainPanel');
+        if (!ex) { panel.style.display = 'none'; return; }
+
+        const buyerNames = [...buyerIds].map(id => points.find(p => p.id === id)?.name || id);
+        const supplierNames = [...supplierIds].map(id => points.find(p => p.id === id)?.name || id);
+
+        panel.style.display = 'block';
+        panel.style.maxHeight = '50vh';
+        panel.style.overflowY = 'auto';
+        panel.innerHTML = `
+          <h2>${ex.name}</h2>
+          <div>Risk score: <b>${ex.risk_score}</b> · Tier ${ex.tier}</div>
+          <b style="font-size:11px;">WHY THIS RISK LEVEL:</b>
+          <ul>${ex.reasons.map(r => `<li>${r}</li>`).join('')}</ul>
+          <b style="font-size:11px; color:#ffd23f;">BUYERS (depend on this company) — ${buyerNames.length}</b>
+          <ul>${buyerNames.length ? buyerNames.map(n => `<li>${n}</li>`).join('') : '<li style="color:#888;">none</li>'}</ul>
+          <b style="font-size:11px; color:#00ccff;">SUPPLIERS (this company depends on) — ${supplierNames.length}</b>
+          <ul>${supplierNames.length ? supplierNames.map(n => `<li>${n}</li>`).join('') : '<li style="color:#888;">none</li>'}</ul>
+        `;
+      }
+
+      function showImpactSummary(result) {
+        document.getElementById('impactSummary').style.display = 'block';
+        document.getElementById('impDirect').textContent = result.direct_count;
+        document.getElementById('impIndirect').textContent = result.indirect_count;
+        document.getElementById('impHops').textContent = result.max_hop;
+        document.getElementById('impIndustries').textContent = result.industries_affected.join(', ');
+        document.getElementById('impRegions').textContent = result.regions_affected.join(', ');
+      }
+
+      function showMitigation(result) {
+        const p = result.plan;
+        const panel = document.getElementById('mitigationPanel');
+        panel.style.display = 'block';
+        panel.innerHTML = `
+          <h2>MITIGATION PLAN — ${result.type} (${result.region})</h2>
+          <div class="meta">Severity: ${p.severity_label} (${p.severity}) · Duration: ~${p.duration_days} days</div>
+          <div style="font-size:11px; color:#ccc;">Top Actions:</div>
+          <ol>${p.top_actions.map(a => `<li>${a}</li>`).join('')}</ol>
+          <div class="priority">Priority sector: ${p.priority_industry || 'n/a'}</div>
+        `;
+      }
+
+      // Staggered "domino" animation: direct nodes light up immediately,
+      // then each hop lights up ~500ms after the previous one.
+      window.loadShock = function (scenarioId) {
+        const result = shockResults[scenarioId];
+        if (!result) {
+          console.warn(`No results for ${scenarioId}. Run: python3 src/stress_test.py`);
+          return;
+        }
+        selectedNodeId = null;
+        buyerIds = new Set();
+        supplierIds = new Set();
+        revealedArcs = new Set();
+        shockState = {};
+        result.direct_node_ids.forEach(id => shockState[id] = 'direct');
+        refresh();
+
+        const hopGroups = {};
+        Object.entries(result.indirect_node_hops).forEach(([id, hop]) => {
+          hopGroups[hop] = hopGroups[hop] || [];
+          hopGroups[hop].push(id);
+        });
+        const maxHop = Math.max(0, ...Object.keys(hopGroups).map(Number));
+        for (let hop = 1; hop <= maxHop; hop++) {
+          setTimeout(() => {
+            (hopGroups[hop] || []).forEach(id => shockState[id] = hop);
+            refresh();
+          }, hop * 500);
+        }
+
+        showImpactSummary(result);
+        showMitigation(result);
+        document.getElementById('explainPanel').style.display = 'none';
+      };
+
+      window.clearShock = function () {
+        shockState = {};
+        selectedNodeId = null;
+        buyerIds = new Set();
+        supplierIds = new Set();
+        revealedArcs = new Set();
+        refresh();
+        document.getElementById('impactSummary').style.display = 'none';
+        document.getElementById('mitigationPanel').style.display = 'none';
+        document.getElementById('explainPanel').style.display = 'none';
+      };
+      // refresh() already reads shockState fresh each call, so clearing
+      // shockState above and calling refresh() correctly resets arc colors too.
+
+      const btnContainer = document.getElementById('shockButtons');
+      shockScenarios.forEach(s => {
+        const btn = document.createElement('button');
+        btn.className = 'shockBtn';
+        btn.textContent = `⚡ ${s.type} — ${s.region}`;
+        btn.onclick = () => window.loadShock(s.id);
+        btnContainer.appendChild(btn);
+      });
+      if (shockScenarios.length) {
+        const clearBtn = document.createElement('button');
+        clearBtn.className = 'shockBtn';
+        clearBtn.textContent = '↺ Clear shock';
+        clearBtn.onclick = () => window.clearShock();
+        btnContainer.appendChild(clearBtn);
+      }
+
+      // --- Top 5 risk node highlighting (pulsing rings, real risk_score) ---
+      let topRiskOn = false;
+      const top5 = Object.values(nodeExplanations)
+        .sort((a, b) => b.risk_score - a.risk_score)
+        .slice(0, 5)
+        .map(e => e.node_id);
+
+      document.getElementById('topRiskBtn').onclick = function () {
+        topRiskOn = !topRiskOn;
+        this.textContent = topRiskOn ? '✦ Hide Top 5 Highlight' : '✦ Highlight Top 5 Risk Nodes';
+        if (topRiskOn) {
+          const ringPoints = points.filter(p => top5.includes(p.id))
+            .map(p => ({ lat: p.lat, lng: p.lng }));
+          world.ringsData(ringPoints);
+        } else {
+          world.ringsData([]);
+        }
+      };
+
+      // --- Demo Mode: zoom to region -> trigger shock -> let animation play ---
+      document.getElementById('runSimBtn').onclick = function () {
+        if (!shockScenarios.length) return;
+        const scenario = shockScenarios[0]; // Port Strike, Vietnam
+        const target = points.find(p => p.country === scenario.region);
+        if (target) {
+          world.pointOfView({ lat: target.lat, lng: target.lng, altitude: 1.0 }, 2000);
+        }
+        setTimeout(() => window.loadShock(scenario.id), 2200);
       };
     });
   </script>

@@ -89,7 +89,7 @@ def train(data: Data, epochs=200, lr=0.01):
 if __name__ == "__main__":
     with open(DATA_DIR / "trade_graph_ntier.json") as f:
         graph_json = json.load(f)
-    G = nx.node_link_graph(graph_json, directed=True, link="edges")
+    G = nx.node_link_graph(graph_json, directed=True, link="links")
 
     data, node_ids = nx_to_pyg(G)
     model = train(data)

@@ -35,8 +35,8 @@
     }
 
     Promise.all([
-      fetch('../data/nodes.geojson').then(r => r.json()),
-      fetch('../data/edges.geojson').then(r => r.json())
+      fetch('data/nodes.geojson'),
+      fetch('data/edges.geojson')
     ]).then(([nodesGeo, edgesGeo]) => {
 
       const points = nodesGeo.features.map(f => ({
